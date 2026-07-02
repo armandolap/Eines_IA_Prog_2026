@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonaments de Programació I i II</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="checkbox" id="theme-toggle" class="theme-checkbox" aria-hidden="true">
+
+  <div class="page-wrapper">
+    <header class="site-header">
+      <div class="header-text">
+        <h1>Fonaments de Programació I i II</h1>
+        <p>Conceptes fonamentals de programació explicats amb definicions i exemples pràctics en JavaScript.</p>
+      </div>
+      <label for="theme-toggle" class="theme-toggle" aria-label="Canviar tema fosc/clar">
+        <span class="icon-moon" aria-hidden="true">🌙</span>
+        <span class="icon-sun" aria-hidden="true">☀️</span>
+      </label>
+    </header>
+
+    <main class="content">
+      <section class="topic-section">
+        <h2>Què és la programació?</h2>
+        <p>La programació és el procés d'escriure instruccions que un ordinador pot seguir per realitzar una tasca. És la base de tot el programari que fem servir cada dia.</p>
+        <article class="definition-card">
+          <h3>Definició clau</h3>
+          <p>Programar consisteix a dissenyar, escriure i mantenir el codi font de programes informàtics. El codi s'escriu en llenguatges com JavaScript, Python o Java.</p>
+        </article>
+        <article class="example-card">
+          <h3>Exemple: primer programa</h3>
+          <pre><code class="code-block">// Mostra un missatge a la consola
+console.log('Hola, món!');
+
+// Demana el teu nom i et saluda
+let nom = prompt('Com et dius?');
+console.log('Hola, ' + nom + '!');</code></pre>
+          <p>Aquest exemple mostra com donar instruccions bàsiques a l'ordinador.</p>
+        </article>
+      </section>
+
+      <section class="topic-section">
+        <h2>Variables i tipus de dades</h2>
+        <p>Les variables emmagatzemen informació a la memòria. Cada variable té un tipus de dada que determina quina classe de valor pot contenir.</p>
+        <article class="definition-card">
+          <h3>Tipus bàsics</h3>
+          <ul>
+            <li><strong>number</strong>: números enters i decimals</li>
+            <li><strong>string</strong>: text</li>
+            <li><strong>boolean</strong>: vertader o fals</li>
+            <li><strong>undefined</strong>: variable sense valor assignat</li>
+          </ul>
+        </article>
+        <article class="example-card">
+          <h3>Exemple en JavaScript</h3>
+          <pre><code class="code-block">let edat = 25;              // number
+let preu = 19.99;           // number decimal
+let nom = 'Anna';           // string
+let esEstudiant = true;     // boolean
+
+console.log(typeof edat);   // Mostra "number"
+console.log(nom + ' té ' + edat + ' anys');</code></pre>
+          <p>Es fan servir les paraules clau <code>let</code> o <code>const</code> per declarar variables.</p>
+        </article>
+      </section>
+
+      <section class="topic-section">
+        <h2>Operadors</h2>
+        <p>Els operadors permeten realitzar operacions amb valors i variables.</p>
+        <article class="definition-card">
+          <h3>Tipus d'operadors</h3>
+          <ul>
+            <li><strong>Aritmètics</strong>: <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code></li>
+            <li><strong>Comparació</strong>: <code>==</code>, <code>===</code>, <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code></li>
+            <li><strong>Lògics</strong>: <code>&amp;&amp;</code>, <code>||</code>, <code>!</code></li>
+          </ul>
+        </article>
+        <article class="example-card">
+          <h3>Exemple en JavaScript</h3>
+          <pre><code class="code-block">let a = 10, b = 3;
+
+// Operadors aritmètics
+console.log('Suma:', a + b);        // 13
+console.log('Mòdul:', a % b);       // 1
+
+// Operadors de comparació
+console.log('a és major que b?', a > b);  // true
+
+// Operadors lògics
+let majorEdat = true;
+let tePermis = false;
+console.log(majorEdat &amp;&amp; tePermis);       // false</code></pre>
+        </article>
+      </section>
+
+      <section class="topic-section">
+        <h2>Condicionals</h2>
+        <p>Les estructures condicionals permeten executar diferents blocs de codi segons una condició.</p>
+        <article class="definition-card">
+          <h3>Estructures disponibles</h3>
+          <ul>
+            <li><strong>if / else if / else</strong>: per a condicions múltiples</li>
+            <li><strong>switch</strong>: per a múltiples valors fixos</li>
+          </ul>
+        </article>
+        <article class="example-card">
+          <h3>Exemple en JavaScript</h3>
+          <pre><code class="code-block">let nota = 85;
+
+if (nota >= 90) {
+  console.log('Excel·lent');
+} else if (nota >= 70) {
+  console.log('Notable');
+} else if (nota >= 50) {
+  console.log('Aprovat');
+} else {
+  console.log('Suspès');
+}
+
+// Operador ternari
+let missatge = nota >= 50 ? 'Aprovat' : 'Suspès';
+console.log(missatge);</code></pre>
+          <p>L'operador ternari <code>condició ? valor1 : valor2</code> és una forma compacta d'<code>if/else</code>.</p>
+        </article>
+      </section>
+
+      <section class="topic-section">
+        <h2>Bucles</h2>
+        <p>Els bucles repeteixen un bloc de codi mentre es compleixi una condició.</p>
+        <article class="definition-card">
+          <h3>Tipus de bucles</h3>
+          <ul>
+            <li><strong>for</strong>: quan saps quantes vegades repetir</li>
+            <li><strong>while</strong>: mentre es compleixi una condició</li>
+            <li><strong>do...while</strong>: executa almenys una vegada</li>
+          </ul>
+        </article>
+        <article class="example-card">
+          <h3>Exemple en JavaScript</h3>
+          <pre><code class="code-block">// Bucle for: imprimeix els números de l'1 al 5
+for (let i = 1; i <= 5; i++) {
+  console.log('Número:', i);
+}
+
+// Bucle while: suma fins a arribar a 20
+let suma = 0, comptador = 1;
+while (suma < 20) {
+  suma += comptador;
+  comptador++;
+}
+console.log('Suma total:', suma);</code></pre>
+        </article>
+      </section>
+
+      <section class="topic-section">
+        <h2>Funcions</h2>
+        <p>Les funcions agrupen instruccions reutilitzables que realitzen una tasca específica.</p>
+        <article class="definition-card">
+          <h3>Parts d'una funció</h3>
+          <ul>
+            <li><strong>Declaració</strong>: es defineix amb <code>function</code></li>
+            <li><strong>Paràmetres</strong>: valors d'entrada</li>
+            <li><strong>Return</strong>: valor que retorna la funció</li>
+          </ul>
+        </article>
+        <article class="example-card">
+          <h3>Exemple en JavaScript</h3>
+          <pre><code class="code-block">function sumar(a, b) {
+  return a + b;
+}
+
+function esParell(numero) {
+  return numero % 2 === 0;
+}
+
+console.log('La suma és:', sumar(8, 5));        // 13
+console.log('8 és parell?', esParell(8));        // true
+
+// Funció fletxa (arrow function)
+let doble = (x) => x * 2;
+console.log('El doble de 7 és:', doble(7));      // 14</code></pre>
+          <p>Les funcions fletxa <code>=&gt;</code> són una sintaxi més moderna i concisa.</p>
+        </article>
+      </section>
+
+      <section class="topic-section">
+        <h2>Arrays</h2>
+        <p>Un array és una col·lecció ordenada d'elements que s'emmagatzema en una sola variable.</p>
+        <article class="definition-card">
+          <h3>Característiques</h3>
+          <ul>
+            <li>S'hi accedeix a cada element per l'<strong>índex</strong> (comença a 0)</li>
+            <li>Poden contenir qualsevol tipus de dada</li>
+            <li>Tenen mètodes útils com <code>push</code>, <code>pop</code>, <code>length</code></li>
+          </ul>
+        </article>
+        <article class="example-card">
+          <h3>Exemple en JavaScript</h3>
+          <pre><code class="code-block">let fruites = ['poma', 'plàtan', 'taronja'];
+
+console.log(fruites[0]);            // "poma"
+console.log('Total:', fruites.length);  // 3
+
+fruites.push('raïm');               // Afegeix al final
+fruites.pop();                       // Treu l'últim
+
+// Recórrer un array
+for (let i = 0; i < fruites.length; i++) {
+  console.log('Fruita:', fruites[i]);
+}</code></pre>
+        </article>
+      </section>
+
+      <section class="topic-section">
+        <h2>POO bàsica</h2>
+        <p>La Programació Orientada a Objectes (POO) organitza el codi en classes i objectes.</p>
+        <article class="definition-card">
+          <h3>Conceptes clau</h3>
+          <ul>
+            <li><strong>Classe</strong>: motlle o plantilla per crear objectes</li>
+            <li><strong>Objecte</strong>: instància d'una classe</li>
+            <li><strong>Constructor</strong>: mètode que s'executa en crear un objecte</li>
+          </ul>
+        </article>
+        <article class="example-card">
+          <h3>Exemple en JavaScript</h3>
+          <pre><code class="code-block">class Persona {
+  constructor(nom, edat) {
+    this.nom = nom;
+    this.edat = edat;
+  }
+
+  presentarSe() {
+    return 'Hola, sóc ' + this.nom + ' i tinc ' + this.edat + ' anys.';
+  }
+}
+
+let estudiant = new Persona('Lluís', 22);
+console.log(estudiant.presentarSe());</code></pre>
+          <p>Les classes permeten crear múltiples objectes amb la mateixa estructura i comportament.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Fonaments de Programació I i II — Material educatiu</p>
+    </footer>
+  </div>
+</body>
+</html>
