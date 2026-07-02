@@ -1,2 +1,2 @@
-# Eines_IA_Prog_2026
+# CTRD0040 - Eines_IA_Prog_2026
 Curs Eines IA Prog Apunt i Exemples
