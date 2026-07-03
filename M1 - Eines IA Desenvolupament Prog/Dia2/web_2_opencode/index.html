@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonaments de Programació I i II</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Checkbox ocult per controlar el mode fosc/clar només amb CSS -->
+  <input type="checkbox" id="theme-checkbox-toggle" class="theme-checkbox" aria-hidden="true">
+
+  <div class="page-wrapper">
+    <header class="site-header">
+      <div class="header-text">
+        <h1>Fonaments de Programació I i II</h1>
+        <p>Apunts estàtics amb definicions clau i exemples de codi interactius en JavaScript.</p>
+      </div>
+      <label for="theme-checkbox-toggle" class="theme-toggle" aria-label="Canviar tema fosc o clar">
+        <span class="icon-moon" aria-hidden="true">🌙</span>
+        <span class="icon-sun" aria-hidden="true">☀️</span>
+      </label>
+    </header>
+
+    <main class="content">
+      <!-- Programació I -->
+      <section class="topic-section">
+        <h2>Programació I: Estructures bàsiques i seqüència</h2>
+        <p>La programació estructural organitza el codi mitjançant blocs lògics, evitant salts desordenats i facilitant la comprensió del flux.</p>
+        
+        <article class="definition-card">
+          <h3>La seqüència</h3>
+          <p>Les instruccions s'executen de dalt a baix, de manera ordenada. Una variable es pot declarar i utilitzar posteriorment en la seqüència.</p>
+        </article>
+
+        <article class="example-card">
+          <h3>Exemple: càlcul d'un descompte</h3>
+          <pre><code class="code-block">// Declarem les variables inicials
+let preuOriginal = 120;
+let descomptePercentatge = 15;
+
+// Calculem el preu final
+let estalvi = (preuOriginal * descomptePercentatge) / 100;
+let preuFinal = preuOriginal - estalvi;
+
+console.log("Estalvies: " + estalvi + "€");
+console.log("Preu final: " + preuFinal + "€");</code></pre>
+        </article>
+      </section>
+
+      <!-- Condicionals i Bucles -->
+      <section class="topic-section">
+        <h2>Estructures de control: Condicionals i Bucles</h2>
+        <p>Permeten prendre decisions dins del programa i repetir accions tantes vegades com calgui sense duplicar codi.</p>
+
+        <article class="definition-card">
+          <h3>Estructures clau</h3>
+          <ul>
+            <li><strong>Selecció (if / else)</strong>: bifurca el camí segons si una condició és cert o fals.</li>
+            <li><strong>Iteració (while / for)</strong>: repeteix un bloc mentre es mantingui la condició.</li>
+          </ul>
+        </article>
+
+        <article class="example-card">
+          <h3>Exemple: classificador de temperatures</h3>
+          <pre><code class="code-block">let temperatura = 28;
+
+if (temperatura > 30) {
+  console.log("Fa molta calor");
+} else if (temperatura >= 18) {
+  console.log("Temperatura agradable");
+} else {
+  console.log("Fa fred");
+}
+
+// Bucle simple per comptar fins a 3
+for (let i = 1; i <= 3; i++) {
+  console.log("Volta número: " + i);
+}</code></pre>
+        </article>
+      </section>
+
+      <!-- Programació II -->
+      <section class="topic-section">
+        <h2>Programació II: Estructures de dades i POO</h2>
+        <p>La Programació II s'enfoca en l'organització avançada de dades mitjançant llistes, piles, cues i la creació d'objectes reals.</p>
+
+        <article class="definition-card">
+          <h3>Estructures de dades</h3>
+          <p>Estructures clau que permeten emmagatzemar informació de forma altament eficient per a posteriors cerques i ordenacions.</p>
+          <ul>
+            <li><strong>Arrays (Vectors)</strong>: col·leccions ordenades indexades de zero en endavant.</li>
+            <li><strong>Piles (Stack)</strong>: LIFO (últim a entrar, primer a sortir).</li>
+            <li><strong>Cues (Queue)</strong>: FIFO (primer a entrar, primer a sortir).</li>
+          </ul>
+        </article>
+
+        <article class="example-card">
+          <h3>Exemple de classe i objecte</h3>
+          <pre><code class="code-block">class Cotxe {
+  constructor(marca, model) {
+    this.marca = marca;
+    this.model = model;
+    this.ences = false;
+  }
+
+  engegar() {
+    this.ences = true;
+    console.log(this.marca + " " + this.model + " s'ha engegat!");
+  }
+}
+
+// Creació d'un objecte a partir de la classe
+const elMeuCotxe = new Cotxe("Tesla", "Model 3");
+elMeuCotxe.engegar();</code></pre>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Creat per a l'estudi pràctic de Fonaments de Programació. Cap línia de JS utilitzada.</p>
+    </footer>
+  </div>
+</body>
+</html>

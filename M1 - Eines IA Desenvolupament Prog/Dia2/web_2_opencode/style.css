@@ -1,0 +1,241 @@
+:root {
+  /* Colors del tema fosc per defecte */
+  --background: #0f172a;
+  --surface: #111827;
+  --surface-alt: #1f2937;
+  --header-bg: rgba(15, 23, 42, 0.92);
+  --card-bg: rgba(30, 41, 59, 0.92);
+  --code-bg: #111827;
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --accent: #7c3aed;
+  --accent-soft: rgba(124, 58, 237, 0.12);
+  --border: rgba(148, 163, 184, 0.18);
+  --shadow: rgba(15, 23, 42, 0.35);
+}
+
+/* Quan el checkbox de canvi de tema està actiu, apliquem el tema clar */
+body:has(.theme-checkbox:checked) {
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-alt: #f3f4f6;
+  --header-bg: rgba(255, 255, 255, 0.92);
+  --card-bg: rgba(248, 250, 252, 0.92);
+  --code-bg: #e2e8f0;
+  --text: #0f172a;
+  --text-muted: #475569;
+  --border: rgba(148, 163, 184, 0.4);
+  --shadow: rgba(15, 23, 42, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: radial-gradient(circle at top, rgba(124, 58, 237, 0.12), transparent 25%),
+              linear-gradient(180deg, #0b1121 0%, var(--background) 100%);
+  color: var(--text);
+  font-family: 'Inter', system-ui, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Transició de fons en canviar a tema clar */
+body:has(.theme-checkbox:checked) {
+  background: radial-gradient(circle at top, rgba(124, 58, 237, 0.08), transparent 25%),
+              linear-gradient(180deg, #ffffff 0%, var(--background) 100%);
+}
+
+body {
+  line-height: 1.7;
+}
+
+/* Ocultar el checkbox real completament */
+.theme-checkbox {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+/* Envoltori principal */
+.page-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 24px 48px;
+}
+
+/* Capçalera */
+.site-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: start;
+  border: 1px solid var(--border);
+  background: var(--header-bg);
+  border-radius: 24px;
+  padding: 32px;
+  margin-bottom: 32px;
+  box-shadow: 0 20px 50px var(--shadow);
+}
+
+.site-header h1 {
+  margin: 0 0 16px;
+  font-size: clamp(2rem, 3vw, 3.2rem);
+  line-height: 1.2;
+}
+
+.site-header p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
+/* Botó visual del selector de tema (un label vinculat al checkbox) */
+.theme-toggle {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--accent-soft);
+  transform: translateY(-1px);
+}
+
+/* Control d'icones per CSS mitjançant la pseudoclau del checkbox */
+.icon-sun {
+  display: none;
+}
+
+body:has(.theme-checkbox:checked) .icon-sun {
+  display: inline;
+}
+
+body:has(.theme-checkbox:checked) .icon-moon {
+  display: none;
+}
+
+/* Contingut de la pàgina */
+.content {
+  display: grid;
+  gap: 28px;
+}
+
+.topic-section {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 22px;
+  padding: 28px;
+}
+
+.topic-section h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: var(--accent);
+}
+
+body:has(.theme-checkbox:checked) .topic-section h2 {
+  color: #6d28d9; /* Accent lleugerament més fosc per a major contrast en fons clar */
+}
+
+.topic-section > p {
+  color: var(--text-muted);
+  max-width: 56rem;
+}
+
+/* Targetes */
+.definition-card,
+.example-card {
+  margin-top: 24px;
+  padding: 22px;
+  border-radius: 18px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+}
+
+.definition-card h3,
+.example-card h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.definition-card p,
+.example-card p {
+  color: var(--text-muted);
+  margin-bottom: 0;
+}
+
+.definition-card ul {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  color: var(--text-muted);
+}
+
+.definition-card li {
+  margin-bottom: 8px;
+}
+
+/* Blocs de codi */
+.code-block {
+  display: block;
+  padding: 18px;
+  background: var(--code-bg);
+  color: var(--text);
+  border-radius: 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.94rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  margin-bottom: 12px;
+}
+
+pre {
+  margin: 0;
+}
+
+/* Peu de pàgina */
+.site-footer {
+  margin-top: 32px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Disseny adaptatiu per a dispositius mòbils */
+@media (max-width: 720px) {
+  .page-wrapper {
+    padding: 24px 16px 32px;
+  }
+
+  .site-header {
+    grid-template-columns: 1fr;
+    padding: 24px;
+    gap: 16px;
+  }
+
+  .theme-toggle {
+    justify-self: start;
+  }
+
+  .topic-section,
+  .definition-card,
+  .example-card {
+    padding: 20px;
+  }
+}

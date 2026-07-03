@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonaments de Programació I i II</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="pagina">
+    <header class="capcalera">
+      <h1 class="capcalera-titol">Fonaments de Programació I i II</h1>
+      <p class="capcalera-desc">Conceptes fonamentals de programació amb definicions i exemples pràctics.</p>
+    </header>
+
+    <main class="contingut">
+      <section class="tema">
+        <h2 class="tema-titol">Què és la programació?</h2>
+        <p class="tema-intro">La programació és el procés d'escriure instruccions que un ordinador pot seguir per realitzar una tasca.</p>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Definició</h3>
+          <p>Programar consisteix a dissenyar, escriure i mantenir el codi font de programes informàtics fent servir llenguatges com JavaScript, Python o Java.</p>
+        </div>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Exemple</h3>
+          <pre><code>console.log('Hola, món!');</code></pre>
+        </div>
+      </section>
+
+      <section class="tema">
+        <h2 class="tema-titol">Variables i tipus de dades</h2>
+        <p class="tema-intro">Les variables emmagatzemen informació a la memòria. Cada variable té un tipus de dada.</p>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Tipus bàsics</h3>
+          <ul>
+            <li><strong>number</strong>: números enters i decimals</li>
+            <li><strong>string</strong>: text</li>
+            <li><strong>boolean</strong>: vertader o fals</li>
+          </ul>
+        </div>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Exemple</h3>
+          <pre><code>let edat = 25;
+let nom = 'Anna';
+let esEstudiant = true;</code></pre>
+        </div>
+      </section>
+
+      <section class="tema">
+        <h2 class="tema-titol">Condicionals</h2>
+        <p class="tema-intro">Les estructures condicionals permeten executar diferents blocs de codi segons una condició.</p>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Estructures</h3>
+          <ul>
+            <li><strong>if / else if / else</strong>: per a condicions múltiples</li>
+            <li><strong>switch</strong>: per a múltiples valors fixos</li>
+          </ul>
+        </div>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Exemple</h3>
+          <pre><code>let nota = 85;
+
+if (nota >= 90) {
+  console.log('Excel·lent');
+} else if (nota >= 70) {
+  console.log('Notable');
+} else {
+  console.log('Suspès');
+}</code></pre>
+        </div>
+      </section>
+
+      <section class="tema">
+        <h2 class="tema-titol">Bucles</h2>
+        <p class="tema-intro">Els bucles repeteixen un bloc de codi mentre es compleixi una condició.</p>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Tipus</h3>
+          <ul>
+            <li><strong>for</strong>: quan saps quantes vegades repetir</li>
+            <li><strong>while</strong>: mentre es compleixi una condició</li>
+          </ul>
+        </div>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Exemple</h3>
+          <pre><code>for (let i = 1; i &lt;= 5; i++) {
+  console.log('Número:', i);
+}</code></pre>
+        </div>
+      </section>
+
+      <section class="tema">
+        <h2 class="tema-titol">Funcions</h2>
+        <p class="tema-intro">Les funcions agrupen instruccions reutilitzables que realitzen una tasca específica.</p>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Parts d'una funció</h3>
+          <ul>
+            <li><strong>Declaració</strong>: es defineix amb <code>function</code></li>
+            <li><strong>Paràmetres</strong>: valors d'entrada</li>
+            <li><strong>Return</strong>: valor que retorna la funció</li>
+          </ul>
+        </div>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Exemple</h3>
+          <pre><code>function sumar(a, b) {
+  return a + b;
+}
+
+console.log(sumar(8, 5));</code></pre>
+        </div>
+      </section>
+
+      <section class="tema">
+        <h2 class="tema-titol">Arrays</h2>
+        <p class="tema-intro">Un array és una col·lecció ordenada d'elements en una sola variable.</p>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Característiques</h3>
+          <ul>
+            <li>S'hi accedeix per l'<strong>índex</strong> (comença a 0)</li>
+            <li>Mètodes útils: <code>push</code>, <code>pop</code>, <code>length</code></li>
+          </ul>
+        </div>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Exemple</h3>
+          <pre><code>let fruites = ['poma', 'plàtan', 'taronja'];
+console.log(fruites[0]);</code></pre>
+        </div>
+      </section>
+
+      <section class="tema">
+        <h2 class="tema-titol">POO bàsica</h2>
+        <p class="tema-intro">La Programació Orientada a Objectes organitza el codi en classes i objectes.</p>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Conceptes clau</h3>
+          <ul>
+            <li><strong>Classe</strong>: motlle per crear objectes</li>
+            <li><strong>Objecte</strong>: instància d'una classe</li>
+          </ul>
+        </div>
+
+        <div class="bloc">
+          <h3 class="bloc-etiqueta">Exemple</h3>
+          <pre><code>class Persona {
+  constructor(nom, edat) {
+    this.nom = nom;
+    this.edat = edat;
+  }
+}
+
+let estudiant = new Persona('Lluís', 22);</code></pre>
+        </div>
+      </section>
+    </main>
+
+    <footer class="peu">
+      <p>Fonaments de Programació I i II — Material educatiu</p>
+    </footer>
+  </div>
+</body>
+</html>
