@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.card-link {
+  display: block;
+  padding: 1.5rem;
+  background-color: #1E293B;
+  border-radius: 0.75rem;
+  border: 1px solid transparent;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #22D3EE;
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.card-link:hover {
+  border-color: #A78BFA;
+  transform: translateY(-2px);
+}
+
+.card {
+  background-color: #1E293B;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  border: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+.card:hover {
+  border-color: rgba(167, 139, 250, 0.3);
+}
+
+.code-block {
+  background-color: #0F172A;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.code-block code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+}
+
+.hl-keyword { color: #A78BFA; }
+.hl-string { color: #22D3EE; }
+.hl-number { color: #F472B6; }
+.hl-comment { color: #64748B; font-style: italic; }
+.hl-function { color: #FBBF24; }
+.hl-builtin { color: #34D399; }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #A78BFA;
+  outline-offset: 2px;
+  border-radius: 0.25rem;
+}
+
+#mobile-menu {
+  transition: opacity 0.2s ease;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+::selection {
+  background-color: rgba(34, 211, 238, 0.25);
+  color: #E2E8F0;
+}

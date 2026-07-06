@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonaments de Programacio I & II</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            fons: '#0F172A',
+            'fons-alt': '#1E293B',
+            text: '#E2E8F0',
+            'text-suau': '#94A3B8',
+            primari: '#22D3EE',
+            accent: '#A78BFA',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-fons text-text font-sans antialiased">
+
+  <!-- ===== HEADER ===== -->
+  <header class="bg-fons-alt/80 backdrop-blur-md sticky top-0 z-50 border-b border-white/5">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="text-primari font-extrabold text-xl tracking-tight hover:opacity-80 transition-opacity">
+        Fonaments de Programacio
+      </a>
+
+      <!-- Hamburger (mobile) -->
+      <button id="menu-btn"
+              class="lg:hidden text-text hover:text-primari transition-colors p-1"
+              aria-label="Obrir menu">
+        <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+        <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+
+      <!-- Nav escriptori -->
+      <nav class="hidden lg:flex gap-8 text-sm font-medium">
+        <a href="#variables" class="text-text-suau hover:text-primari transition-colors">Variables</a>
+        <a href="#condicionals" class="text-text-suau hover:text-primari transition-colors">Condicionals</a>
+        <a href="#bucles" class="text-text-suau hover:text-primari transition-colors">Bucles</a>
+        <a href="#funcions" class="text-text-suau hover:text-primari transition-colors">Funcions</a>
+      </nav>
+    </div>
+
+    <!-- Nav mobil -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-fons-alt border-t border-white/5">
+      <nav class="flex flex-col px-4 py-4 gap-4 text-sm font-medium">
+        <a href="#variables" class="text-text-suau hover:text-primari transition-colors">Variables</a>
+        <a href="#condicionals" class="text-text-suau hover:text-primari transition-colors">Condicionals</a>
+        <a href="#bucles" class="text-text-suau hover:text-primari transition-colors">Bucles</a>
+        <a href="#funcions" class="text-text-suau hover:text-primari transition-colors">Funcions</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+
+    <!-- Hero -->
+    <section class="max-w-6xl mx-auto px-4 pt-20 pb-16 md:pt-28 md:pb-20 text-center">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-primari leading-[1.1] tracking-tight">
+        Fonaments de Programacio
+      </h1>
+      <p class="mt-5 text-text-suau text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+        Guia completa per aprendre els conceptes basics de la programacio amb JavaScript.
+        Pensa com un programador des del primer dia.
+      </p>
+    </section>
+
+    <!-- Index de temes -->
+    <section class="max-w-6xl mx-auto px-4 pb-16">
+      <h2 class="text-2xl font-bold text-primari mb-6">Index de temes</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <a href="#variables" class="card-link">Variables</a>
+        <a href="#condicionals" class="card-link">Condicionals</a>
+        <a href="#bucles" class="card-link">Bucles</a>
+        <a href="#funcions" class="card-link">Funcions</a>
+      </div>
+    </section>
+
+    <!-- ===== VARIABLES ===== -->
+    <section id="variables" class="max-w-6xl mx-auto px-4 pb-16 scroll-mt-24">
+      <h2 class="text-2xl font-bold text-primari mb-2">Variables</h2>
+      <p class="text-text-suau mb-6 max-w-2xl">
+        Les variables son contenidors on guardem informacio per reutilitzar-la mes tard.
+        Son el primer que cal entendre per escriure codi.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Que es una variable?</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Una variable es un espai amb nom on es guarda un valor (un numero, un text, etc.)
+            per poder-lo recuperar i modificar mes endavant.
+          </p>
+          <pre class="code-block"><code><span class="hl-comment">// Guardem la nota d&#39;un examen</span>
+<span class="hl-keyword">let</span> nota = <span class="hl-number">7</span>;
+console.<span class="hl-builtin">log</span>(nota); <span class="hl-comment">// → 7</span></code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2"><code>let</code> i <code>const</code></h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Amb <code>let</code> declares una variable que pot canviar.
+            Amb <code>const</code> declares un valor fix que no es pot reasignar.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">let</span> edat = <span class="hl-number">20</span>;
+edat = <span class="hl-number">21</span>; <span class="hl-comment">// podem canviar-lo</span>
+
+<span class="hl-keyword">const</span> NOM = <span class="hl-string">"Anna"</span>;
+<span class="hl-comment">// NOM = "Pau"; // ❌ Error!</span></code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Tipus de dades</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Cada variable te un tipus: <strong class="text-white">string</strong> (text),
+            <strong class="text-white">number</strong> (numero),
+            <strong class="text-white">boolean</strong> (cert/fals),
+            <strong class="text-white">array</strong> (llista), etc.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">const</span> nom = <span class="hl-string">"Maria"</span>;      <span class="hl-comment">// → string</span>
+<span class="hl-keyword">const</span> edat = <span class="hl-number">25</span>;            <span class="hl-comment">// → number</span>
+<span class="hl-keyword">const</span> esMajor = <span class="hl-keyword">true</span>;    <span class="hl-comment">// → boolean</span>
+<span class="hl-keyword">const</span> notes = [<span class="hl-number">7</span>, <span class="hl-number">8</span>, <span class="hl-number">6</span>];  <span class="hl-comment">// → array</span></code></pre>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== CONDICIONALS ===== -->
+    <section id="condicionals" class="max-w-6xl mx-auto px-4 pb-16 scroll-mt-24">
+      <h2 class="text-2xl font-bold text-primari mb-2">Condicionals</h2>
+      <p class="text-text-suau mb-6 max-w-2xl">
+        Les estructures condicionals permeten que el programa prenga decisions segons
+        si una condicio es certa o falsa.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2"><code>if / else</code></h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Executa un bloc de codi si la condicio es certa; si no, n'executa un altre.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">const</span> nota = <span class="hl-number">7</span>;
+
+<span class="hl-keyword">if</span> (nota >= <span class="hl-number">5</span>) {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"Aprovat!"</span>);
+} <span class="hl-keyword">else</span> {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"Suspes"</span>);
+}</code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2"><code>else if</code></h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Quan hi ha mes de dues opcions, encadenem condicions amb <code>else if</code>.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">const</span> nota = <span class="hl-number">8</span>;
+
+<span class="hl-keyword">if</span> (nota >= <span class="hl-number">9</span>) {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"Excel·lent!"</span>);
+} <span class="hl-keyword">else</span> <span class="hl-keyword">if</span> (nota >= <span class="hl-number">7</span>) {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"Notable!"</span>);
+} <span class="hl-keyword">else</span> <span class="hl-keyword">if</span> (nota >= <span class="hl-number">5</span>) {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"Suficient"</span>);
+} <span class="hl-keyword">else</span> {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"Suspes"</span>);
+}</code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Operadors de comparacio</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Permeten comparar valors: <code>===</code> (igual estricte),
+            <code>!==</code> (diferent), <code>&gt;</code>, <code>&lt;</code>,
+            <code>&gt;=</code>, <code>&lt;=</code>.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">const</span> a = <span class="hl-number">5</span>;
+<span class="hl-keyword">const</span> b = <span class="hl-string">"5"</span>;
+
+console.<span class="hl-builtin">log</span>(a === b); <span class="hl-comment">// false (tipus diferent)</span>
+console.<span class="hl-builtin">log</span>(a !== b); <span class="hl-comment">// true</span>
+console.<span class="hl-builtin">log</span>(a  >  b);  <span class="hl-comment">// false</span></code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Operadors logics</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Combinen condicions: <code>&&</code> (AND), <code>||</code> (OR),
+            <code>!</code> (NOT).
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">const</span> edat = <span class="hl-number">20</span>;
+<span class="hl-keyword">const</span> teCarnet = <span class="hl-keyword">true</span>;
+
+<span class="hl-keyword">if</span> (edat >= <span class="hl-number">18</span> && teCarnet) {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"Pot conduir"</span>);
+}
+
+<span class="hl-keyword">if</span> (edat < <span class="hl-number">18</span> || !teCarnet) {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"No pot conduir"</span>);
+}</code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Condicional ternaria</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Una forma abreujada d'escriure <code>if / else</code> en una sola línia.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">const</span> nota = <span class="hl-number">7</span>;
+
+<span class="hl-keyword">const</span> resultat = nota >= <span class="hl-number">5</span>
+  ? <span class="hl-string">"Aprovat"</span>
+  : <span class="hl-string">"Suspes"</span>;
+
+console.<span class="hl-builtin">log</span>(resultat); <span class="hl-comment">// → Aprovat</span></code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2"><code>switch</code></h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Alternativa a molts <code>else if</code> quan compares una variable
+            amb multiples valors concrets.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">const</span> dia = <span class="hl-number">3</span>;
+
+<span class="hl-keyword">switch</span> (dia) {
+  <span class="hl-keyword">case</span> <span class="hl-number">1</span>:
+    console.<span class="hl-builtin">log</span>(<span class="hl-string">"Dilluns"</span>); <span class="hl-keyword">break</span>;
+  <span class="hl-keyword">case</span> <span class="hl-number">2</span>:
+    console.<span class="hl-builtin">log</span>(<span class="hl-string">"Dimarts"</span>); <span class="hl-keyword">break</span>;
+  <span class="hl-keyword">case</span> <span class="hl-number">3</span>:
+    console.<span class="hl-builtin">log</span>(<span class="hl-string">"Dimecres"</span>); <span class="hl-keyword">break</span>;
+  <span class="hl-keyword">default</span>:
+    console.<span class="hl-builtin">log</span>(<span class="hl-string">"Altre dia"</span>);
+}</code></pre>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== BUCLES ===== -->
+    <section id="bucles" class="max-w-6xl mx-auto px-4 pb-16 scroll-mt-24">
+      <h2 class="text-2xl font-bold text-primari mb-2">Bucles</h2>
+      <p class="text-text-suau mb-6 max-w-2xl">
+        Els bucles repeteixen un bloc de codi multiples vegades. Estalvien escriure
+        el mateix una i altra vegada.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2"><code>for</code></h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Repeteix codi un nombre concret de vegades. Ideal per recórrer arrays
+            o fer una tasca N vegades.
+          </p>
+          <pre class="code-block"><code><span class="hl-comment">// Contar del 0 al 4</span>
+<span class="hl-keyword">for</span> (<span class="hl-builtin">let</span> i = <span class="hl-number">0</span>; i < <span class="hl-number">5</span>; i++) {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"Volta:"</span>, i);
+}
+
+<span class="hl-comment">// Recorrer un array</span>
+<span class="hl-keyword">const</span> noms = [<span class="hl-string">"Ana"</span>, <span class="hl-string">"Pau"</span>, <span class="hl-string">"Mia"</span>];
+<span class="hl-keyword">for</span> (<span class="hl-builtin">let</span> i = <span class="hl-number">0</span>; i < noms.length; i++) {
+  console.<span class="hl-builtin">log</span>(noms[i]);
+}</code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2"><code>while</code></h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Repeteix mentre una condicio sigui certa. Cal assegurar-se que la condicio
+            acabe sent falsa per no crear un bucle infinit.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">let</span> comptador = <span class="hl-number">0</span>;
+
+<span class="hl-keyword">while</span> (comptador < <span class="hl-number">3</span>) {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"Comptador:"</span>, comptador);
+  comptador++;
+}
+
+<span class="hl-comment">// → Comptador: 0</span>
+<span class="hl-comment">// → Comptador: 1</span>
+<span class="hl-comment">// → Comptador: 2</span></code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2"><code>for...of</code></h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Forma moderna i neta de recórrer arrays sense necessitat d'un index.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">const</span> colors = [<span class="hl-string">"vermell"</span>, <span class="hl-string">"blau"</span>, <span class="hl-string">"verd"</span>];
+
+<span class="hl-keyword">for</span> (<span class="hl-keyword">const</span> color <span class="hl-keyword">of</span> colors) {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">`Color: ${color}`</span>);
+}
+
+<span class="hl-comment">// → Color: vermell</span>
+<span class="hl-comment">// → Color: blau</span>
+<span class="hl-comment">// → Color: verd</span></code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2"><code>break</code> i <code>continue</code></h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            <code>break</code> ix del bucle immediatament.
+            <code>continue</code> salta a la seguent iteracio.
+          </p>
+          <pre class="code-block"><code><span class="hl-comment">// break: atura's al 3</span>
+<span class="hl-keyword">for</span> (<span class="hl-keyword">let</span> i = <span class="hl-number">0</span>; i < <span class="hl-number">10</span>; i++) {
+  <span class="hl-keyword">if</span> (i === <span class="hl-number">3</span>) <span class="hl-keyword">break</span>;
+  console.<span class="hl-builtin">log</span>(i); <span class="hl-comment">// → 0, 1, 2</span>
+}
+
+<span class="hl-comment">// continue: salta el 2</span>
+<span class="hl-keyword">for</span> (<span class="hl-keyword">let</span> i = <span class="hl-number">0</span>; i < <span class="hl-number">5</span>; i++) {
+  <span class="hl-keyword">if</span> (i === <span class="hl-number">2</span>) <span class="hl-keyword">continue</span>;
+  console.<span class="hl-builtin">log</span>(i); <span class="hl-comment">// → 0, 1, 3, 4</span>
+}</code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Bucle infinit (perill)</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Si la condicio d'un bucle mai es fa falsa, el programa es queda encallat.
+            Vigila sempre la condicio de sortida.
+          </p>
+          <pre class="code-block"><code><span class="hl-comment">// ⚠️ Aixo NO s'ha de fer:</span>
+<span class="hl-comment">// while (true) { }</span>
+<span class="hl-comment">// Es repetiria per sempre!</span>
+
+<span class="hl-comment">// ✅ Correcte: condicio limitada</span>
+<span class="hl-builtin">let</span> x = <span class="hl-number">0</span>;
+<span class="hl-keyword">while</span> (x < <span class="hl-number">5</span>) {
+  x++;
+}</code></pre>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== FUNCIONS ===== -->
+    <section id="funcions" class="max-w-6xl mx-auto px-4 pb-16 scroll-mt-24">
+      <h2 class="text-2xl font-bold text-primari mb-2">Funcions</h2>
+      <p class="text-text-suau mb-6 max-w-2xl">
+        Les funcions son blocs de codi reutilitzables que fan una tasca concreta.
+        Les escrius un cop i les crides tantes vegades com calga.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Que es una funcio?</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Una funcio agrupa instruccions sota un nom. Quan la crides, s'executen
+            totes les instruccions en ordre.
+          </p>
+          <pre class="code-block"><code><span class="hl-comment">// Definicio</span>
+<span class="hl-keyword">function</span> <span class="hl-function">saludar</span>() {
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"Hola, mon!"</span>);
+}
+
+<span class="hl-comment">// Crida</span>
+saludar(); <span class="hl-comment">// → Hola, mon!</span>
+saludar(); <span class="hl-comment">// → Hola, mon!</span></code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Parametres i arguments</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            El <strong>parametre</strong> es la variable que espera la funcio.
+            L'<strong>argument</strong> es el valor que li passes en cridar-la.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">function</span> <span class="hl-function">saludar</span>(nom) {   <span class="hl-comment">// parametre</span>
+  console.<span class="hl-builtin">log</span>(<span class="hl-string">"Hola,"</span>, nom);
+}
+
+saludar(<span class="hl-string">"Anna"</span>); <span class="hl-comment">// "Anna" es l'argument</span>
+saludar(<span class="hl-string">"Pau"</span>);</code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Valor de retorn</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            <code>return</code> fa que la funcio done un resultat que pots guardar
+            en una variable o usar directament.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">function</span> <span class="hl-function">suma</span>(a, b) {
+  <span class="hl-keyword">return</span> a + b;
+}
+
+<span class="hl-keyword">const</span> resultat = suma(<span class="hl-number">3</span>, <span class="hl-number">4</span>);
+console.<span class="hl-builtin">log</span>(resultat); <span class="hl-comment">// → 7</span></code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Arrow functions</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Forma mes curta d'escriure funcions, molt usada en JavaScript modern.
+            Si te una sola expressio, el <code>return</code> es implicit.
+          </p>
+          <pre class="code-block"><code><span class="hl-comment">// Funcio normal</span>
+<span class="hl-keyword">function</span> <span class="hl-function">doble</span>(x) {
+  <span class="hl-keyword">return</span> x * <span class="hl-number">2</span>;
+}
+
+<span class="hl-comment">// Arrow function (equivalent)</span>
+<span class="hl-keyword">const</span> doble = (x) => x * <span class="hl-number">2</span>;
+
+console.<span class="hl-builtin">log</span>(doble(<span class="hl-number">5</span>)); <span class="hl-comment">// → 10</span></code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Scope (ambit)</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Les variables declarades dins d'una funcio nomes existeixen dins d'ella.
+            Fora no s'hi pot accedir.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">function</span> <span class="hl-function">prova</span>() {
+  <span class="hl-keyword">const</span> missatge = <span class="hl-string">"Dins!"</span>;
+  console.<span class="hl-builtin">log</span>(missatge); <span class="hl-comment">// → Dins!</span>
+}
+
+prova();
+<span class="hl-comment">// console.log(missatge); // ReferenceError!</span></code></pre>
+        </article>
+
+        <article class="card">
+          <h3 class="text-lg font-semibold text-white mb-2">Exemple practic: mitjana</h3>
+          <p class="text-text-suau text-sm leading-relaxed mb-4">
+            Funcio que calcula la mitjana d'un array de notes. Combina funcions,
+            bucles i arrays.
+          </p>
+          <pre class="code-block"><code><span class="hl-keyword">function</span> <span class="hl-function">calculaMitjana</span>(notes) {
+  <span class="hl-keyword">let</span> suma = <span class="hl-number">0</span>;
+  <span class="hl-keyword">for</span> (<span class="hl-builtin">let</span> i = <span class="hl-number">0</span>; i < notes.length; i++) {
+    suma += notes[i];
+  }
+  <span class="hl-keyword">return</span> suma / notes.length;
+}
+
+<span class="hl-keyword">const</span> notes = [<span class="hl-number">7</span>, <span class="hl-number">8</span>, <span class="hl-number">6</span>, <span class="hl-number">9</span>];
+console.<span class="hl-builtin">log</span>(calculaMitjana(notes)); <span class="hl-comment">// → 7.5</span></code></pre>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="border-t border-white/5 py-8 text-center text-text-suau text-sm">
+    <p>Fonaments de Programacio I & II &mdash; Material d'estudi</p>
+  </footer>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuIcon = document.getElementById('menu-icon');
+    const closeIcon = document.getElementById('close-icon');
+
+    menuBtn.addEventListener('click', function () {
+      mobileMenu.classList.toggle('hidden');
+      menuIcon.classList.toggle('hidden');
+      closeIcon.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('#mobile-menu a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        mobileMenu.classList.add('hidden');
+        menuIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+      });
+    });
+  </script>
+
+</body>
+</html>
