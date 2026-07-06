@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 2: Intermediate CS Concepts — Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="site-logo">
+        <span>&lt;/&gt; CodeAcademy</span>
+      </a>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="level-1.html" class="nav-link">Level 1</a>
+        <a href="level-2.html" class="nav-link active">Level 2</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Documentation Container -->
+  <div class="doc-container">
+    
+    <!-- Left Navigation Sidebar -->
+    <aside class="sidebar">
+      <h3 class="sidebar-title">Level 2 Modules</h3>
+      <ul class="toc-list">
+        <li class="toc-item"><a href="#oop" class="toc-link">1. Object-Oriented Programming</a></li>
+        <li class="toc-item"><a href="#data-structures" class="toc-link">2. Data Structures</a></li>
+        <li class="toc-item"><a href="#algorithms" class="toc-link">3. Algorithms &amp; Complexity</a></li>
+        <li class="toc-item"><a href="#memory" class="toc-link">4. Memory Management</a></li>
+        <li class="toc-item"><a href="#errors" class="toc-link">5. Error &amp; Exceptions</a></li>
+      </ul>
+      
+      <h3 class="sidebar-title">Navigation</h3>
+      <ul class="toc-list">
+        <li class="toc-item"><a href="index.html" class="toc-link">&larr; Back to Home</a></li>
+        <li class="toc-item"><a href="level-1.html" class="toc-link">Go to Level 1 &rarr;</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Document Header Info -->
+      <header class="doc-header">
+        <span class="doc-badge" style="color: var(--accent-teal); border-color: rgba(20, 184, 166, 0.3);">Intermediate</span>
+        <h1 class="doc-title">Level 2: Intermediate Concepts</h1>
+        <p class="doc-meta">In-depth guide covering Object-Oriented Design, Data Structures, Algorithmic Complexity, Memory models, and Error hierarchies.</p>
+      </header>
+
+      <!-- Section 1: OOP -->
+      <section id="oop">
+        <h2>1. Object-Oriented Programming (OOP)</h2>
+        <p>
+          <strong>Object-Oriented Programming</strong> is a software design paradigm that models real-world concepts as code structures called <strong>objects</strong>. An object contains state data (attributes) and behaviors (methods).
+        </p>
+
+        <h3>Classes vs. Objects</h3>
+        <ul>
+          <li><strong>Class:</strong> A template or blueprint that defines the structure and potential behavior of an object.</li>
+          <li><strong>Object:</strong> A concrete instance created (instantiated) from a class blueprint, carrying its own independent state.</li>
+        </ul>
+
+        <h3>The Four Pillars of OOP</h3>
+        <p>Mastering OOP requires understanding four foundational architectural concepts:</p>
+        <ol>
+          <li><strong>Encapsulation:</strong> Bundling data and methods into a single unit (class) and restricting direct external access to internals using private visibility modifiers (getters/setters).</li>
+          <li><strong>Abstraction:</strong> Hiding internal implementation complexity and exposing only a clean, simplified interface (using interfaces or abstract classes).</li>
+          <li><strong>Inheritance:</strong> Creating a parent-child relationship between classes, allowing a child class to inherit and extend attributes/methods from a parent.</li>
+          <li><strong>Polymorphism:</strong> The ability for different objects to respond to the same method call in unique ways (method overriding or interface implementation).</li>
+        </ol>
+
+        <!-- Code Block Code Example -->
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-lang-tag">Python OOP</span>
+            <span>Classes &amp; Inheritance example</span>
+          </div>
+          <pre><code><span class="kw">class</span> <span class="typ">Animal</span>:
+    <span class="kw">def</span> <span class="fn">__init__</span>(self, name):
+        self._name = name <span class="cmt"># Protected attribute (Encapsulation)</span>
+        
+    <span class="kw">def</span> <span class="fn">speak</span>(self):
+        <span class="kw">pass</span>             <span class="cmt"># Abstract method outline</span>
+
+<span class="cmt"># Dog inherits from Animal (Inheritance)</span>
+<span class="kw">class</span> <span class="typ">Dog</span>(<span class="typ">Animal</span>):
+    <span class="kw">def</span> <span class="fn">speak</span>(self):
+        <span class="kw">return</span> f<span class="str">"{self._name} says Woof!"</span> <span class="cmt"># Polymorphism</span>
+
+my_dog = <span class="typ">Dog</span>(<span class="str">"Buddy"</span>)
+print(my_dog.<span class="fn">speak</span>()) <span class="cmt"># Buddy says Woof!</span></code></pre>
+        </div>
+      </section>
+
+      <!-- Section 2: Data Structures -->
+      <section id="data-structures">
+        <h2>2. Data Structures</h2>
+        <p>
+          A <strong>data structure</strong> is a specialized format for organizing, storing, and retrieving data. Different data structures are optimized for different computational operations.
+        </p>
+
+        <h3>Linear Data Structures</h3>
+        <ul>
+          <li><strong>Array:</strong> A collection of elements stored sequentially in contiguous memory. Offers instant random access (via indexes) but holds a fixed size.</li>
+          <li><strong>Linked List:</strong> A chain of elements (nodes) where each node points to the next. Easily resized dynamically, but requires sequential scanning to find values.</li>
+          <li><strong>Stack:</strong> A Last-In, First-Out (LIFO) structure. Think of a stack of plates—you add (push) and remove (pop) only from the top.</li>
+          <li><strong>Queue:</strong> A First-In, First-Out (FIFO) structure. Like a queue at a grocery store—the first to enter (enqueue) is the first to leave (dequeue).</li>
+        </ul>
+
+        <h3>Non-Linear Data Structures</h3>
+        <ul>
+          <li><strong>Hash Table / Dictionary:</strong> Stores key-value pairs. Uses a hashing function to map keys directly to memory bins, providing ultra-fast O(1) reads and writes.</li>
+          <li><strong>Binary Search Tree (BST):</strong> A hierarchical tree structure where each parent node has at most two children. The left child is smaller, and the right child is larger, enabling efficient search operations.</li>
+          <li><strong>Graph:</strong> A network of nodes (vertices) connected by links (edges). Used to model social networks, city pathways, or web links.</li>
+        </ul>
+
+        <div class="callout info">
+          <div class="callout-title">💡 Trade-Offs are Key</div>
+          <p>
+            No data structure is perfect for everything. An Array gives you immediate reads, but deleting or inserting in the middle is slow. A Linked List allows instant insertions, but finding a specific value takes time. Choosing the right data structure is a core software engineering skill.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 3: Algorithms & Computational Complexity -->
+      <section id="algorithms">
+        <h2>3. Algorithms &amp; Computational Complexity</h2>
+        <p>
+          An <strong>algorithm</strong> is a step-by-step procedure or formula for solving a computational problem. How we measure if an algorithm is "good" or "bad" is evaluated using <strong>Big O notation</strong>.
+        </p>
+
+        <h3>Understanding Big O Notation</h3>
+        <p>
+          Big O describes how the execution time (Time Complexity) or memory usage (Space Complexity) of an algorithm scales as the input size (denoted as <code>N</code>) grows towards infinity.
+        </p>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Big O Notation</th>
+                <th>Common Name</th>
+                <th>Description</th>
+                <th>Algorithm Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>O(1)</code></td>
+                <td>Constant Time</td>
+                <td>Operation takes the same time, regardless of input size.</td>
+                <td>Accessing array element by index; Hash Table lookup.</td>
+              </tr>
+              <tr>
+                <td><code>O(log N)</code></td>
+                <td>Logarithmic Time</td>
+                <td>Input is halved on each step. Highly efficient.</td>
+                <td>Binary Search in a sorted list.</td>
+              </tr>
+              <tr>
+                <td><code>O(N)</code></td>
+                <td>Linear Time</td>
+                <td>Time scales directly proportion to the size of the input.</td>
+                <td>Linear Search across an unsorted list.</td>
+              </tr>
+              <tr>
+                <td><code>O(N log N)</code></td>
+                <td>Linearithmic Time</td>
+                <td>Dividing step (log N) performed N times. Standard for sorting.</td>
+                <td>Merge Sort, Quick Sort.</td>
+              </tr>
+              <tr>
+                <td><code>O(N²)</code></td>
+                <td>Quadratic Time</td>
+                <td>Nested iterations. Scales poorly with larger inputs.</td>
+                <td>Bubble Sort, Selection Sort.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Binary Search vs. Linear Search</h3>
+        <p>
+          Consider finding a number in a sorted array of 1,000,000 elements:
+        </p>
+        <ul>
+          <li><strong>Linear Search (O(N)):</strong> Scans element-by-element. In the worst case, it performs <strong>1,000,000 operations</strong>.</li>
+          <li><strong>Binary Search (O(log N)):</strong> Looks at the middle element, discarding half of the list on each step. It takes a maximum of only <strong>20 operations</strong>!</li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-lang-tag">Python Binary Search</span>
+            <span>O(log N) search implementation</span>
+          </div>
+          <pre><code><span class="kw">def</span> <span class="fn">binary_search</span>(arr, target):
+    low = <span class="num">0</span>
+    high = len(arr) - <span class="num">1</span>
+    
+    <span class="kw">while</span> low &lt;= high:
+        mid = (low + high) // <span class="num">2</span>
+        <span class="kw">if</span> arr[mid] == target:
+            <span class="kw">return</span> mid <span class="cmt"># Found! Return index</span>
+        <span class="kw">elif</span> arr[mid] &lt; target:
+            low = mid + <span class="num">1</span>
+        <span class="kw">else</span>:
+            high = mid - <span class="num">1</span>
+            
+    <span class="kw">return</span> -<span class="num">1</span> <span class="cmt"># Not found</span></code></pre>
+        </div>
+      </section>
+
+      <!-- Section 4: Memory Management -->
+      <section id="memory">
+        <h2>4. Memory Management (Stack vs. Heap)</h2>
+        <p>
+          When programs run, they request memory allocation from the operating system. This temporary memory is partitioned into two distinct physical zones: <strong>The Stack</strong> and <strong>The Heap</strong>.
+        </p>
+
+        <h3>The Stack</h3>
+        <ul>
+          <li><strong>How it works:</strong> Managed automatically using a LIFO structure. It stores local function variables, parameters, and return addresses.</li>
+          <li><strong>Lifespan:</strong> Strictly bounded to the execution of the function. Once a function returns, its "stack frame" is automatically discarded.</li>
+          <li><strong>Pros/Cons:</strong> Extremely fast allocation, but small and rigid in size.</li>
+        </ul>
+
+        <h3>The Heap</h3>
+        <ul>
+          <li><strong>How it works:</strong> A large, unstructured pool of memory used for variables that must survive beyond local function calls or require a dynamic size (e.g., dynamic arrays, objects).</li>
+          <li><strong>Lifespan:</strong> Programmatic. Deallocation must be requested manually or handled by an automated runtime process.</li>
+          <li><strong>Pros/Cons:</strong> Large and highly flexible, but slower to access and allocate.</li>
+        </ul>
+
+        <h3>Manual Allocation vs. Garbage Collection</h3>
+        <p>How heap memory is reclaimed is language dependent:</p>
+        <ul>
+          <li><strong>Manual Memory Management (C/C++):</strong> The developer explicitly allocates (e.g., <code>malloc()</code> or <code>new</code>) and must manually free memory (e.g., <code>free()</code> or <code>delete</code>). Forgetting to free memory leads to <strong>Memory Leaks</strong>, while freeing it too early causes <strong>Dangling Pointers</strong>.</li>
+          <li><strong>Garbage Collection (Java, JS, Python):</strong> A background engine automatically tracks objects and reclaims their memory when there are no remaining references pointing to them. This saves developers time but can introduce periodic performance pauses (GC sweeps).</li>
+        </ul>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-lang-tag">C++ Manual Allocation</span>
+            <span>Explicit heap management</span>
+          </div>
+          <pre><code><span class="cmt">// Allocating an array on the Heap manually</span>
+<span class="typ">int</span>* numbers = <span class="kw">new</span> <span class="typ">int</span>[<span class="num">500</span>]; 
+
+<span class="cmt">// ... perform computations ...</span>
+
+<span class="cmt">// MUST free the memory when finished to avoid a memory leak</span>
+<span class="kw">delete</span>[] numbers;</code></pre>
+        </div>
+      </section>
+
+      <!-- Section 5: Error & Exception Handling -->
+      <section id="errors">
+        <h2>5. Robust Error &amp; Exception Handling</h2>
+        <p>
+          Real-world systems inevitably encounter errors: networks drop, files go missing, and users enter invalid data. A robust program handles these anomalies gracefully instead of crashing abruptly.
+        </p>
+
+        <h3>Traditional Error Codes vs. Exceptions</h3>
+        <ul>
+          <li><strong>Error Codes:</strong> Classic languages (like C) return status codes from functions (e.g., <code>-1</code> for failure). Developers must explicitly check this code after every call, leading to cluttered logic.</li>
+          <li><strong>Exceptions:</strong> Modern languages separate error handling from the main business logic by "throwing" (or raising) an exception object, which propagates up the call stack until it is intercepted by a "catch" handler.</li>
+        </ul>
+
+        <h3>The Try-Catch-Finally Mechanism</h3>
+        <p>
+          Most modern languages utilize a unified try-catch block structure:
+        </p>
+        <ol>
+          <li><strong>Try:</strong> Wraps a block of suspect code that might produce an exception.</li>
+          <li><strong>Catch:</strong> Intercepts and handles specific exceptions thrown by the try block.</li>
+          <li><strong>Finally:</strong> A block that runs unconditionally at the end, regardless of whether an exception occurred or was caught. Crucial for cleaning up active file handlers or network links.</li>
+        </ol>
+
+        <div class="code-container">
+          <div class="code-header">
+            <span class="code-lang-tag">Java Exceptions</span>
+            <span>Graceful failure flow</span>
+          </div>
+          <pre><code><span class="kw">try</span> {
+    <span class="typ">int</span> result = <span class="num">10</span> / <span class="num">0</span>; <span class="cmt">// Throws ArithmeticException</span>
+} <span class="kw">catch</span> (<span class="typ">ArithmeticException</span> e) {
+    <span class="typ">System</span>.out.println(<span class="str">"Error: Division by zero!"</span>);
+} <span class="kw">finally</span> {
+    <span class="typ">System</span>.out.println(<span class="str">"Execution finished, resources cleaned."</span>);
+}</code></pre>
+        </div>
+
+        <div class="callout success">
+          <div class="callout-title">🏆 Exceptional Engineering Tip</div>
+          <p>
+            Always catch the most <strong>specific exceptions first</strong> before falling back on general/generic catch blocks. This allows you to handle unique errors (like file-not-found) differently from others (like memory limits), ensuring the application behaves predictably.
+          </p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="level-1.html">Level 1 (Foundations)</a>
+        <a href="level-2.html">Level 2 (Intermediate)</a>
+      </div>
+      <p>&copy; 2026 CodeAcademy. Built with HTML5 &amp; CSS3. Clean, responsive, and framework-free.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

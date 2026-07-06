@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<!--
+    ============================================================
+    Página Web Educativa
+    Tema:
+    - Nivel 1: Programación Estructurada
+    - Nivel 2: Estructuras de Datos y Programación Orientada a Objetos
+
+    Diseño:
+    - Responsive
+    - Fondo oscuro
+    - Tipografía:
+        * Inter (texto)
+        * JetBrains Mono (código)
+
+    Todas las etiquetas HTML y propiedades CSS están comentadas.
+    ============================================================
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Define la codificación de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Permite que el diseño responsive funcione correctamente -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Programación Nivel 1 y Nivel 2</title>
+
+    <!--
+        Importa las fuentes desde Google Fonts.
+
+        Inter:
+        Fuente moderna para los textos.
+
+        JetBrains Mono:
+        Fuente optimizada para visualizar código.
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        /*======================================================
+            VARIABLES CSS
+            Permiten reutilizar colores fácilmente.
+        ======================================================*/
+        :root{
+
+            /* Color principal del fondo */
+            --bg:#0f172a;
+
+            /* Fondo de tarjetas */
+            --card:#1e293b;
+
+            /* Color secundario */
+            --card2:#334155;
+
+            /* Color principal de texto */
+            --text:#f8fafc;
+
+            /* Texto secundario */
+            --text2:#cbd5e1;
+
+            /* Color de acento */
+            --primary:#38bdf8;
+
+            /* Color verde para títulos */
+            --success:#4ade80;
+
+            /* Color amarillo */
+            --warning:#facc15;
+
+        }
+
+        /*======================================================
+            SELECTOR UNIVERSAL
+
+            Se aplica a todos los elementos.
+        ======================================================*/
+        *{
+
+            /* El padding y borde se incluyen en el tamaño */
+            box-sizing:border-box;
+
+            /* Elimina márgenes por defecto */
+            margin:0;
+
+            /* Elimina rellenos por defecto */
+            padding:0;
+
+        }
+
+        /*======================================================
+            BODY
+        ======================================================*/
+        body{
+
+            /* Fuente principal */
+            font-family:'Inter',sans-serif;
+
+            /* Color de fondo */
+            background:var(--bg);
+
+            /* Color del texto */
+            color:var(--text);
+
+            /* Altura mínima */
+            min-height:100vh;
+
+            /* Altura entre líneas */
+            line-height:1.7;
+
+        }
+
+        /*======================================================
+            CABECERA
+        ======================================================*/
+        header{
+
+            /* Fondo con degradado */
+            background:linear-gradient(135deg,#0f172a,#1d4ed8);
+
+            /* Espaciado interno */
+            padding:50px 20px;
+
+            /* Centra el texto */
+            text-align:center;
+
+            /* Sombra inferior */
+            box-shadow:0 3px 12px rgba(0,0,0,.4);
+
+        }
+
+        /* Título principal */
+        header h1{
+
+            /* Tamaño */
+            font-size:2.7rem;
+
+            /* Margen inferior */
+            margin-bottom:15px;
+
+        }
+
+        /* Texto del encabezado */
+        header p{
+
+            /* Tamaño */
+            font-size:1.1rem;
+
+            /* Color */
+            color:var(--text2);
+
+        }
+
+        /*======================================================
+            CONTENEDOR PRINCIPAL
+        ======================================================*/
+        main{
+
+            /* Ancho máximo */
+            max-width:1200px;
+
+            /* Centra el contenido */
+            margin:auto;
+
+            /* Espaciado */
+            padding:40px 20px;
+
+        }
+
+        /*======================================================
+            TARJETAS
+        ======================================================*/
+        section{
+
+            /* Color de fondo */
+            background:var(--card);
+
+            /* Separación inferior */
+            margin-bottom:35px;
+
+            /* Bordes redondeados */
+            border-radius:15px;
+
+            /* Espaciado interno */
+            padding:30px;
+
+            /* Sombra */
+            box-shadow:0 8px 25px rgba(0,0,0,.3);
+
+        }
+
+        /*======================================================
+            TITULOS
+        ======================================================*/
+        h2{
+
+            color:var(--primary);
+
+            margin-bottom:20px;
+
+            border-left:6px solid var(--primary);
+
+            padding-left:12px;
+
+        }
+
+        h3{
+
+            color:var(--success);
+
+            margin:20px 0 10px;
+
+        }
+
+        /*======================================================
+            PÁRRAFOS
+        ======================================================*/
+        p{
+
+            margin-bottom:15px;
+
+            color:var(--text2);
+
+        }
+
+        /*======================================================
+            LISTAS
+        ======================================================*/
+        ul{
+
+            margin-left:25px;
+
+            margin-bottom:20px;
+
+        }
+
+        li{
+
+            margin-bottom:8px;
+
+        }
+
+        /*======================================================
+            BLOQUES DE CÓDIGO
+        ======================================================*/
+        pre{
+
+            /* Fuente para código */
+            font-family:'JetBrains Mono',monospace;
+
+            /* Fondo */
+            background:#020617;
+
+            /* Color */
+            color:#7dd3fc;
+
+            /* Espaciado */
+            padding:20px;
+
+            /* Bordes */
+            border-radius:10px;
+
+            /* Scroll horizontal */
+            overflow:auto;
+
+            /* Espaciado superior */
+            margin-top:15px;
+
+        }
+
+        code{
+
+            /* Fuente */
+            font-family:'JetBrains Mono',monospace;
+
+        }
+
+        /*======================================================
+            TABLAS
+        ======================================================*/
+        table{
+
+            width:100%;
+
+            border-collapse:collapse;
+
+            margin-top:20px;
+
+        }
+
+        th{
+
+            background:#2563eb;
+
+            padding:12px;
+
+        }
+
+        td{
+
+            padding:12px;
+
+            border:1px solid #334155;
+
+        }
+
+        /*======================================================
+            CAJAS DESTACADAS
+        ======================================================*/
+        .info{
+
+            background:var(--card2);
+
+            padding:18px;
+
+            border-left:5px solid var(--warning);
+
+            border-radius:8px;
+
+            margin:20px 0;
+
+        }
+
+        /*======================================================
+            FOOTER
+        ======================================================*/
+        footer{
+
+            text-align:center;
+
+            padding:30px;
+
+            color:#94a3b8;
+
+        }
+
+        /*======================================================
+            RESPONSIVE
+
+            Se ejecuta cuando la pantalla es menor de 768px.
+        ======================================================*/
+        @media(max-width:768px){
+
+            header h1{
+
+                font-size:2rem;
+
+            }
+
+            section{
+
+                padding:20px;
+
+            }
+
+            pre{
+
+                font-size:.85rem;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Cabecera principal -->
+    <header>
+
+        <!-- Título -->
+        <h1>Programación Nivel 1 y Nivel 2</h1>
+
+        <!-- Descripción -->
+        <p>
+            Guía introductoria sobre Programación Estructurada,
+            Estructuras de Datos y Programación Orientada a Objetos.
+        </p>
+
+    </header>
+
+    <!-- Contenedor principal -->
+    <main>
+
+        <!-- ================================================= -->
+        <!-- PROGRAMACIÓN ESTRUCTURADA -->
+        <!-- ================================================= -->
+
+        <section>
+
+            <h2>Nivel 1 · Programación Estructurada</h2>
+
+            <p>
+                La programación estructurada es un paradigma que organiza un programa
+                mediante bloques bien definidos, evitando el uso excesivo de saltos
+                incontrolados y facilitando el mantenimiento del código.
+            </p>
+
+            <div class="info">
+
+                <strong>Características principales</strong>
+
+                <ul>
+
+                    <li>Secuencia de instrucciones.</li>
+
+                    <li>Uso de decisiones.</li>
+
+                    <li>Uso de bucles.</li>
+
+                    <li>Modularización mediante funciones.</li>
+
+                </ul>
+
+            </div>
+
+            <h3>Ejemplo de secuencia</h3>
+
+<pre><code>Inicio
+
+Leer número
+
+Multiplicar por 2
+
+Mostrar resultado
+
+Fin</code></pre>
+
+            <h3>Ejemplo de decisión</h3>
+
+<pre><code>edad = 20
+
+Si edad >= 18 entonces
+
+    Mostrar "Mayor de edad"
+
+Sino
+
+    Mostrar "Menor de edad"</code></pre>
+
+            <h3>Ejemplo de repetición</h3>
+
+<pre><code>Para i desde 1 hasta 5
+
+    Mostrar i
+
+Fin Para</code></pre>
+
+        </section>
+
+        <!-- ================================================= -->
+        <!-- ESTRUCTURAS DE DATOS -->
+        <!-- ================================================= -->
+
+        <section>
+
+            <h2>Nivel 2 · Estructuras de Datos</h2>
+
+            <p>
+                Las estructuras de datos permiten organizar la información para
+                acceder a ella de forma rápida y eficiente.
+            </p>
+
+            <table>
+
+                <tr>
+
+                    <th>Estructura</th>
+
+                    <th>Descripción</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>Array</td>
+
+                    <td>Almacena elementos del mismo tipo.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Lista</td>
+
+                    <td>Permite insertar y eliminar elementos fácilmente.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Pila</td>
+
+                    <td>LIFO (Last In First Out).</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Cola</td>
+
+                    <td>FIFO (First In First Out).</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Árbol</td>
+
+                    <td>Estructura jerárquica.</td>
+
+                </tr>
+
+            </table>
+
+            <h3>Ejemplo de Array</h3>
+
+<pre><code>numeros = [10,20,30,40]
+
+Mostrar numeros[0]
+
+Resultado: 10</code></pre>
+
+            <h3>Ejemplo de Pila</h3>
+
+<pre><code>Push(10)
+
+Push(20)
+
+Push(30)
+
+Pop()
+
+Resultado → 30</code></pre>
+
+        </section>
+
+        <!-- ================================================= -->
+        <!-- POO -->
+        <!-- ================================================= -->
+
+        <section>
+
+            <h2>Nivel 2 · Programación Orientada a Objetos</h2>
+
+            <p>
+                La Programación Orientada a Objetos (POO) organiza el software
+                mediante objetos que representan entidades reales.
+            </p>
+
+            <h3>Conceptos fundamentales</h3>
+
+            <ul>
+
+                <li>Clase</li>
+
+                <li>Objeto</li>
+
+                <li>Atributos</li>
+
+                <li>Métodos</li>
+
+                <li>Encapsulamiento</li>
+
+                <li>Herencia</li>
+
+                <li>Polimorfismo</li>
+
+                <li>Abstracción</li>
+
+            </ul>
+
+            <h3>Ejemplo de clase</h3>
+
+<pre><code>Clase Persona
+
+    nombre
+
+    edad
+
+    Método saludar()
+
+        Mostrar "Hola"
+
+Fin Clase</code></pre>
+
+            <h3>Creación de un objeto</h3>
+
+<pre><code>persona1 = Persona()
+
+persona1.nombre = "Carlos"
+
+persona1.edad = 22
+
+persona1.saludar()</code></pre>
+
+            <h3>Ejemplo de Herencia</h3>
+
+<pre><code>Clase Animal
+
+    Método hablar()
+
+Clase Perro hereda Animal
+
+    hablar()
+
+        Mostrar "Guau"</code></pre>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+
+        Página educativa HTML + CSS • Diseño Responsive • Tema oscuro
+
+    </footer>
+
+</body>
+
+</html>

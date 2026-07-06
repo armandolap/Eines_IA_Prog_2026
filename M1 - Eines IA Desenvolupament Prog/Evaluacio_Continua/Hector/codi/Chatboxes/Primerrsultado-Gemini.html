@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!-- Declaramos el tipo de documento como HTML5 -->
+<html lang="es">
+<head>
+    <!-- Configuración de caracteres esenciales para mostrar tildes y eñes correctamente -->
+    <meta charset="UTF-8">
+    <!-- Viewport dinámico: Vital para que el diseño sea responsive en móviles y tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Programación: Nivel 1 y 2</title>
+
+    <!-- Conexión con los servidores de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importamos Inter (para texto) y JetBrains Mono (para código) con sus grosores -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* CSS RESET: Limpiamos los márgenes por defecto del navegador para un control total */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Hace que el padding no altere el ancho total del elemento */
+        }
+
+        /* VARIABLES CSS: Definimos la paleta de colores oscuros y modernos para reutilizar */
+        :root {
+            --bg-principal: #0f172a;   /* Fondo oscuro azulado profundo (Slate 900) */
+            --bg-tarjeta: #1e293b;     /* Fondo de bloques y tarjetas (Slate 800) */
+            --bg-codigo: #020617;      /* Fondo ultra oscuro para bloques de código */
+            --texto-claro: #f8fafc;    /* Texto principal casi blanco */
+            --texto-mutado: #94a3b8;   /* Texto secundario grisáceo para explicaciones ligeras */
+            --acento-nivel1: #38bdf8;  /* Celeste eléctrico para Programación Estructurada */
+            --acento-nivel2: #a78bfa;  /* Morado pastel para POO y Estructuras de Datos */
+            --borde: #334155;          /* Color para líneas divisorias sutiles */
+        }
+
+        /* ESTILOS GENERALES DEL CUERPO */
+        body {
+            background-color: var(--bg-principal);
+            color: var(--texto-claro);
+            font-family: 'Inter', sans-serif; /* Tipografía limpia para la lectura general */
+            line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+            padding-bottom: 50px;
+        }
+
+        /* CONTENEDOR PRINCIPAL: Centra el contenido y evita que se estire demasiado en pantallas gigantes */
+        .contenedor {
+            max-width: 1100px;
+            margin: 0 auto; /* Centra el bloque horizontalmente */
+            padding: 20px;
+        }
+
+        /* CABECERA (HEADER) */
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 1px solid var(--borde); /* Línea divisoria inferior sutil */
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5rem; /* Tamaño grande y responsive */
+            font-weight: 700;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, var(--acento-nivel1), var(--acento-nivel2));
+            -webkit-background-clip: text; /* Truco de diseño: aplica el degradado al texto */
+            -webkit-text-fill-color: transparent;
+        }
+
+        header p {
+            color: var(--texto-mutado);
+            font-size: 1.1rem;
+        }
+
+        /* SECCIONES DE NIVELES */
+        .seccion-nivel {
+            margin-bottom: 60px;
+        }
+
+        /* Títulos de los niveles */
+        .titulo-nivel {
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--borde);
+            display: flex;
+            align-items: center;
+            gap: 10px; /* Espacio entre el texto y posibles iconos/etiquetas */
+        }
+
+        /* Variación de colores por nivel para guiar visualmente al usuario */
+        .nivel-1 .titulo-nivel { color: var(--acento-nivel1); }
+        .nivel-2 .titulo-nivel { color: var(--acento-nivel2); }
+
+        /* GRID RESPONSIVE: Aquí ocurre la magia del diseño adaptable */
+        .grid-conceptos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Crea columnas automáticamente de mínimo 320px, si no caben, bajan de fila */
+            gap: 25px; /* Espacio entre tarjetas */
+        }
+
+        /* TARJETAS DE CONCEPTOS */
+        .tarjeta {
+            background-color: var(--bg-tarjeta);
+            border: 1px solid var(--borde);
+            border-radius: 12px; /* Esquinas redondeadas modernas */
+            padding: 25px;
+            display: flex;
+            flex-direction: column; /* Alinea el contenido internamente de arriba a abajo */
+            transition: transform 0.2s ease, box-shadow 0.2s ease; /* Efecto suave al pasar el ratón */
+        }
+
+        /* Efecto Hover para dar feedback de interactividad */
+        .tarjeta:hover {
+            transform: translateY(-5px); /* Eleva la tarjeta sutilmente */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra difuminada */
+        }
+
+        .tarjeta h3 {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .tarjeta p {
+            color: var(--texto-mutado);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            flex-grow: 1; /* Hace que el texto ocupe el espacio necesario empujando el código al fondo */
+        }
+
+        /* BLOQUES DE CÓDIGO (PRE Y CODE) */
+        pre {
+            background-color: var(--bg-codigo);
+            border-left: 3px solid var(--borde); /* Detalle visual en el lateral izquierdo */
+            border-radius: 6px;
+            padding: 15px;
+            overflow-x: auto; /* Genera scroll horizontal si el código es más largo que la tarjeta (evita romper el diseño) */
+        }
+
+        code {
+            font-family: 'JetBrains Mono', monospace; /* Aplicamos la fuente de Google para código */
+            font-size: 0.85rem;
+            color: #e2e8f0;
+        }
+
+        /* Estilos sutiles para resaltar la sintaxis dentro del código (comentarios y palabras clave) */
+        .code-comment { color: #64748b; font-style: italic; }
+        .code-keyword { color: #f43f5e; font-weight: bold; }
+
+        /* Adaptaciones específicas para pantallas muy pequeñas (Móviles) */
+        @media (max-width: 480px) {
+            header { padding: 40px 10px; }
+            header h1 { font-size: 2rem; }
+            .grid-conceptos {
+                grid-template-columns: 1fr; /* Fuerza una sola columna en pantallas mini */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contenedor semántico principal de la web -->
+    <main class="contenedor">
+
+        <!-- Encabezado del sitio -->
+        <header>
+            <h1>Ruta del Desarrollador</h1>
+            <p>Fundamentos de programación explicados de forma clara, visual y moderna.</p>
+        </header>
+
+        <!-- BLOQUE: NIVEL 1 (PROGRAMACIÓN ESTRUCTURADA) -->
+        <section class="seccion-nivel nivel-1">
+            <h2 class="titulo-nivel">Nivel 1: Programación Estructurada</h2>
+            
+            <!-- Grid que envolverá las tarjetas de este nivel -->
+            <div class="grid-conceptos">
+
+                <!-- Tarjeta 1: Estructuras Secuenciales -->
+                <article class="tarjeta">
+                    <h3>01. Estructura Secuencial</h3>
+                    <p>Es la forma más simple de ejecución. Las instrucciones se ejecutan de manera lineal, una detrás de otra, en el orden estricto en el que están escritas en el archivo fuente.</p>
+                    <pre><code><span class="code-comment">// Las acciones ocurren en estricto orden</span>
+edad = 25;
+año_actual = 2026;
+año_nacimiento = año_actual - edad;
+print(año_nacimiento);</code></pre>
+                </article>
+
+                <!-- Tarjeta 2: Estructuras Condicionales -->
+                <article class="tarjeta">
+                    <h3>02. Estructuras Condicionales (IF / ELSE)</h3>
+                    <p>Permiten al programa bifurcar su flujo de ejecución tomando decisiones lógicas basadas en si una condición se cumple (verdadero) o no (falso).</p>
+                    <pre><code><span class="code-keyword">if</span> (usuario.logeado == <span class="code-keyword">true</span>) {
+    <span class="code-comment">// Se ejecuta si es verdadero</span>
+    mostrar_panel();
+} <span class="code-keyword">else</span> {
+    <span class="code-comment">// Se ejecuta si es falso</span>
+    mostrar_login();
+}</code></pre>
+                </article>
+
+                <!-- Tarjeta 3: Estructuras Ciclicas -->
+                <article class="tarjeta">
+                    <h3>03. Bucles / Estructuras Cíclicas</h3>
+                    <p>Instrucciones diseñadas para repetir un bloque de código múltiples veces mientras una condición lógica específica continúe siendo verdadera.</p>
+                    <pre><code><span class="code-comment">// Imprime números del 0 al 4</span>
+<span class="code-keyword">for</span> (let i = 0; i &lt; 5; i++) {
+    print("Contador actual: " + i);
+}</code></pre>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- BLOQUE: NIVEL 2 (ESTRUCTURAS DE DATOS Y POO) -->
+        <section class="seccion-nivel nivel-2">
+            <h2 class="titulo-nivel">Nivel 2: Estructuras de Datos y POO</h2>
+            
+            <!-- Grid que envolverá las tarjetas de este nivel -->
+            <div class="grid-conceptos">
+
+                <!-- Tarjeta 1: Arrays / Listas -->
+                <article class="tarjeta">
+                    <h3>01. Colecciones (Arrays/Listas)</h3>
+                    <p>Estructuras de datos que permiten agrupar múltiples elementos del mismo o diferente tipo bajo una sola variable, organizados por un índice numérico.</p>
+                    <pre><code><span class="code-comment">// Declaración de una lista indexada</span>
+let lenguajes = ["Python", "JS", "C++"];
+
+<span class="code-comment">// Acceso mediante índice (base 0)</span>
+print(lenguajes[0]); <span class="code-comment">// Salida: Python</span></code></pre>
+                </article>
+
+                <!-- Tarjeta 2: Clases y Objetos -->
+                <article class="tarjeta">
+                    <h3>02. Clases y Objetos</h3>
+                    <p>La base de la POO. Una Clase es la plantilla abstracta (plano de construcción) y el Objeto es la instancia real y concreta nacida a partir de dicha plantilla.</p>
+                    <pre><code><span class="code-keyword">class</span> Coche {
+    constructor(marca) {
+        this.marca = marca; <span class="code-comment">// Propiedad</span>
+    }
+}
+<span class="code-comment">// Creación del objeto real</span>
+let miCoche = <span class="code-keyword">new</span> Coche("Tesla");</code></pre>
+                </article>
+
+                <!-- Tarjeta 3: Pilares POO (Encapsulamiento) -->
+                <article class="tarjeta">
+                    <h3>03. Encapsulamiento</h3>
+                    <p>Pilar de la POO que consiste en ocultar el estado interno de un objeto y restringir el acceso directo, exponiendo solo lo necesario a través de métodos públicos.</p>
+                    <pre><code><span class="code-keyword">class</span> CuentaBancaria {
+    #saldo = 500; <span class="code-comment">// Propiedad privada (#)</span>
+
+    getSaldo() { 
+        <span class="code-keyword">return</span> this.#saldo; <span class="code-comment">// Acceso seguro</span>
+    }
+}</code></pre>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>

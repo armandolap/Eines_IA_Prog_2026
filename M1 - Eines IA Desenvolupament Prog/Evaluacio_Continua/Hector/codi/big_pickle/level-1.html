@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 1 &mdash; Foundations &mdash; Programming Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Level 1: Foundations</h1>
+    <p class="subtitle">Core concepts every programmer should know</p>
+  </header>
+
+  <main class="container">
+    <a href="index.html" class="back-link">&larr; Back to home</a>
+
+    <section class="topic">
+      <h2>What is Programming?</h2>
+      <p>Programming is the process of writing instructions that a computer can follow to perform a task. These instructions are written in a <strong>programming language</strong> such as Python, Java, or C++.</p>
+      <p>A program takes input, processes it according to a set of rules, and produces output. The set of rules is called an <strong>algorithm</strong>.</p>
+      <div class="note">
+        <strong>Key idea:</strong> Programming is about breaking a problem down into small, precise steps the computer can execute.
+      </div>
+    </section>
+
+    <section class="topic">
+      <h2>Variables and Data Types</h2>
+      <p>Variables store data in memory so it can be used and manipulated throughout a program. Every variable has a <strong>name</strong>, a <strong>value</strong>, and a <strong>data type</strong> that determines what kind of data it can hold.</p>
+
+      <h3>Common Data Types</h3>
+      <ul>
+        <li><strong>Integer</strong> &mdash; whole numbers (e.g., 42, -7)</li>
+        <li><strong>Float</strong> &mdash; decimal numbers (e.g., 3.14, -0.5)</li>
+        <li><strong>String</strong> &mdash; text (e.g., "hello", "42")</li>
+        <li><strong>Boolean</strong> &mdash; true or false</li>
+      </ul>
+
+      <h3>Example</h3>
+      <pre><code>age = 25            # integer
+price = 19.99       # float
+name = "Alice"      # string
+is_student = True   # boolean</code></pre>
+    </section>
+
+    <section class="topic">
+      <h2>Control Flow</h2>
+      <p>Control flow determines the order in which statements are executed. The three fundamental structures are <strong>sequence</strong>, <strong>selection</strong>, and <strong>iteration</strong>.</p>
+
+      <h3>Conditionals (Selection)</h3>
+      <p>Conditionals let the program make decisions based on boolean expressions.</p>
+      <pre><code>score = 85
+
+if score >= 90:
+    grade = "A"
+elif score >= 80:
+    grade = "B"
+else:
+    grade = "C"</code></pre>
+
+      <h3>Loops (Iteration)</h3>
+      <p>Loops repeat a block of code while a condition holds true or for each item in a collection.</p>
+      <pre><code># While loop
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+# For loop
+for i in range(5):
+    print(i)</code></pre>
+    </section>
+
+    <section class="topic">
+      <h2>Functions</h2>
+      <p>A function is a reusable block of code that performs a specific task. Functions help avoid repetition and make programs easier to read and maintain.</p>
+
+      <h3>Key Concepts</h3>
+      <ul>
+        <li><strong>Definition</strong> &mdash; creating a function with a name and body</li>
+        <li><strong>Parameters</strong> &mdash; inputs the function accepts</li>
+        <li><strong>Return value</strong> &mdash; the output the function produces</li>
+        <li><strong>Call</strong> &mdash; invoking the function to execute it</li>
+      </ul>
+
+      <h3>Example</h3>
+      <pre><code>def greet(name):
+    """Return a greeting string."""
+    return f"Hello, {name}!"
+
+message = greet("Alice")
+print(message)  # Hello, Alice!</code></pre>
+    </section>
+
+    <section class="topic">
+      <h2>Basic Input / Output</h2>
+      <p>Programs communicate with the outside world through input and output (I/O).</p>
+
+      <h3>Output</h3>
+      <p>Display information to the user, usually on the console or screen.</p>
+      <pre><code>print("Hello, world!")</code></pre>
+
+      <h3>Input</h3>
+      <p>Read data from the user via the keyboard or other sources.</p>
+      <pre><code>name = input("Enter your name: ")
+print(f"Welcome, {name}!")</code></pre>
+
+      <div class="note">
+        <strong>Tip:</strong> Always validate user input before using it in your program to avoid unexpected errors.
+      </div>
+    </section>
+
+    <a href="index.html" class="back-link">&larr; Back to home</a>
+  </main>
+
+  <footer class="site-footer">
+    <p>Programming Notes &mdash; HTML &amp; CSS only</p>
+  </footer>
+</body>
+</html>

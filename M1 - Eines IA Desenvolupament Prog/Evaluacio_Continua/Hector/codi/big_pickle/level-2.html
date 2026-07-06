@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 2 &mdash; Intermediate &mdash; Programming Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Level 2: Intermediate</h1>
+    <p class="subtitle">Building on the foundations with real-world patterns</p>
+  </header>
+
+  <main class="container">
+    <a href="index.html" class="back-link">&larr; Back to home</a>
+
+    <section class="topic">
+      <h2>Object-Oriented Programming</h2>
+      <p>OOP organises code around <strong>objects</strong> rather than functions and logic. An object bundles data (attributes) and behaviour (methods) into a single unit.</p>
+
+      <h3>Four Pillars</h3>
+      <ul>
+        <li><strong>Encapsulation</strong> &mdash; hiding internal state and requiring all interaction through methods</li>
+        <li><strong>Inheritance</strong> &mdash; creating new classes based on existing ones to reuse code</li>
+        <li><strong>Polymorphism</strong> &mdash; using a single interface to represent different underlying forms</li>
+        <li><strong>Abstraction</strong> &mdash; exposing only essential features and hiding implementation details</li>
+      </ul>
+
+      <h3>Example</h3>
+      <pre><code>class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        pass
+
+class Dog(Animal):
+    def speak(self):
+        return f"{self.name} says Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return f"{self.name} says Meow!"</code></pre>
+    </section>
+
+    <section class="topic">
+      <h2>Data Structures</h2>
+      <p>Data structures organise and store data efficiently. Choosing the right structure is key to writing fast, scalable programs.</p>
+
+      <h3>Arrays / Lists</h3>
+      <p>Ordered collections of elements accessible by index. Good for sequential access and iteration.</p>
+      <pre><code>numbers = [3, 7, 1, 9, 4]
+numbers.append(2)
+first = numbers[0]     # 3
+sorted_nums = sorted(numbers)</code></pre>
+
+      <h3>Stacks and Queues</h3>
+      <ul>
+        <li><strong>Stack</strong> &mdash; Last-In-First-Out (LIFO). Like a pile of plates.</li>
+        <li><strong>Queue</strong> &mdash; First-In-First-Out (FIFO). Like a line of people.</li>
+      </ul>
+
+      <h3>Trees</h3>
+      <p>A hierarchical structure with a root node and child nodes. Binary trees are widely used in searching and sorting.</p>
+
+      <div class="note">
+        <strong>Rule of thumb:</strong> Arrays for fast index access, linked lists for frequent insertions/deletions, hash tables for fast lookups by key.
+      </div>
+    </section>
+
+    <section class="topic">
+      <h2>Algorithms</h2>
+      <p>An algorithm is a step-by-step procedure for solving a problem. The study of algorithms focuses on correctness and efficiency.</p>
+
+      <h3>Sorting</h3>
+      <pre><code># Bubble sort — O(n²)
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr</code></pre>
+
+      <h3>Searching</h3>
+      <ul>
+        <li><strong>Linear search</strong> &mdash; check each element in order. O(n).</li>
+        <li><strong>Binary search</strong> &mdash; repeatedly halve a sorted array. O(log n).</li>
+      </ul>
+
+      <h3>Complexity (Big O)</h3>
+      <p>Big O notation describes how runtime or memory grows as input size increases. Common classes:</p>
+      <ul>
+        <li><strong>O(1)</strong> &mdash; constant time (hash lookup)</li>
+        <li><strong>O(log n)</strong> &mdash; logarithmic (binary search)</li>
+        <li><strong>O(n)</strong> &mdash; linear (single loop)</li>
+        <li><strong>O(n log n)</strong> &mdash; log-linear (merge sort)</li>
+        <li><strong>O(n²)</strong> &mdash; quadratic (nested loops)</li>
+      </ul>
+    </section>
+
+    <section class="topic">
+      <h2>Memory Management</h2>
+      <p>Understanding how memory works helps write efficient and bug-free code.</p>
+
+      <h3>Stack vs Heap</h3>
+      <ul>
+        <li><strong>Stack</strong> &mdash; stores local variables and function call frames. Fast, limited size, automatically managed.</li>
+        <li><strong>Heap</strong> &mdash; stores dynamically allocated data. Larger, slower, requires explicit management or a garbage collector.</li>
+      </ul>
+
+      <h3>Common Issues</h3>
+      <ul>
+        <li><strong>Memory leak</strong> &mdash; memory that is no longer needed is not freed</li>
+        <li><strong>Dangling pointer</strong> &mdash; a reference to memory that has been freed</li>
+        <li><strong>Buffer overflow</strong> &mdash; writing beyond the bounds of allocated memory</li>
+      </ul>
+
+      <div class="note">
+        <strong>Languages with garbage collection</strong> (Java, Python, Go) handle heap cleanup automatically, but you should still avoid holding references longer than necessary.
+      </div>
+    </section>
+
+    <section class="topic">
+      <h2>Error Handling</h2>
+      <p>Errors are inevitable. Robust programs anticipate and handle them gracefully rather than crashing.</p>
+
+      <h3>Exceptions</h3>
+      <p>Exceptions are events that disrupt normal program flow. Most modern languages provide structured exception handling.</p>
+
+      <h3>Example (Python)</h3>
+      <pre><code>try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except TypeError as e:
+    print(f"Type error: {e}")
+finally:
+    print("This always runs.")</code></pre>
+
+      <h3>Best Practices</h3>
+      <ul>
+        <li>Catch specific exceptions, not broad ones</li>
+        <li>Fail fast &mdash; detect errors early</li>
+        <li>Log errors with enough context to diagnose them</li>
+        <li>Never expose internal error details to end users</li>
+      </ul>
+    </section>
+
+    <a href="index.html" class="back-link">&larr; Back to home</a>
+  </main>
+
+  <footer class="site-footer">
+    <p>Programming Notes &mdash; HTML &amp; CSS only</p>
+  </footer>
+</body>
+</html>

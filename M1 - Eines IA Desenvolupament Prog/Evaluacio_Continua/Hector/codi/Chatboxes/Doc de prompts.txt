@@ -1,0 +1,4 @@
+prompt para chatgpt:
+Como si fueses un diseñador y programador web profesional, genera código html y css de una página web estática que contenga definiciones y ejemplos de programación de nivel 1 (programacion estructurada) y nivel 2 (estructuras de datos y programacion orientada a objetos)
+
+Explica siempre con comentarios en el código lo que hace cada etiqueta HTML / propiedad CSS. El código bien formateado. Como diseño web fondo oscuro y utiliza la tipografia de google fonts jetbrains para los ejemplos de código y otra común para las explicasiones. El diseño debe ser responsive
