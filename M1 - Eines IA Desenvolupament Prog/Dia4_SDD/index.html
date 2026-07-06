@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonaments de Programació I i II</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            fons: '#0F172A',
+            'fons-alt': '#1E293B',
+            text: '#E2E8F0',
+            'text-suau': '#94A3B8',
+            primari: '#22D3EE',
+            accent: '#A78BFA',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-fons text-text font-sans">
+  <header class="sticky top-0 z-50 bg-fons-alt/95 backdrop-blur-sm border-b border-fons-alt">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div>
+        <h1 class="text-2xl md:text-3xl font-bold text-primari">Fonaments de Programació I i II</h1>
+        <p class="text-text-suau text-sm mt-1">Conceptes bàsics de programació amb exemples de codi</p>
+      </div>
+      <button id="menu-btn" class="md:hidden p-2 text-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primari rounded" aria-label="Obre el menú de navegació">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+    <nav id="menu" class="hidden md:flex md:justify-center md:gap-6 px-4 pb-4 md:pb-2 bg-fons-alt md:bg-transparent">
+      <a href="#programacio" class="block py-2 md:py-1 text-text-suau hover:text-primari transition-colors focus-visible:outline-none focus-visible:text-primari">Programació</a>
+      <a href="#variables" class="block py-2 md:py-1 text-text-suau hover:text-primari transition-colors focus-visible:outline-none focus-visible:text-primari">Variables</a>
+      <a href="#condicionals" class="block py-2 md:py-1 text-text-suau hover:text-primari transition-colors focus-visible:outline-none focus-visible:text-primari">Condicionals</a>
+      <a href="#bucles" class="block py-2 md:py-1 text-text-suau hover:text-primari transition-colors focus-visible:outline-none focus-visible:text-primari">Bucles</a>
+      <a href="#funcions" class="block py-2 md:py-1 text-text-suau hover:text-primari transition-colors focus-visible:outline-none focus-visible:text-primari">Funcions</a>
+      <a href="#arrays" class="block py-2 md:py-1 text-text-suau hover:text-primari transition-colors focus-visible:outline-none focus-visible:text-primari">Arrays</a>
+      <a href="#poo" class="block py-2 md:py-1 text-text-suau hover:text-primari transition-colors focus-visible:outline-none focus-visible:text-primari">POO</a>
+    </nav>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    <section id="programacio" class="targeta">
+      <h2 class="text-xl font-bold text-primari mb-3">Programació</h2>
+      <p class="leading-relaxed mb-4">La programació és el procés d'escriure instruccions que un ordinador pot entendre i executar. Un programa és una seqüència ordenada d'instruccions que resol un problema determinat.</p>
+      <div class="mb-3">
+        <p class="text-text-suau text-sm"><strong class="text-text">Conceptes clau:</strong> algoritme, instrucció, programa, llenguatge de programació.</p>
+      </div>
+      <pre><code>// El primer programa
+console.log("Hola, món!");
+
+// Missatge amb variables
+let nom = "Anna";
+console.log("Hola, " + nom + "!");</code></pre>
+    </section>
+
+    <section id="variables" class="targeta">
+      <h2 class="text-xl font-bold text-primari mb-3">Variables</h2>
+      <p class="leading-relaxed mb-4">Una variable és un espai a la memòria que guarda un valor. Ens permet emmagatzemar dades i referir-nos-hi amb un nom descriptiu.</p>
+      <div class="mb-3">
+        <p class="text-text-suau text-sm"><strong class="text-text">Tipus de dades:</strong> <code class="text-primari text-xs">number</code>, <code class="text-primari text-xs">string</code>, <code class="text-primari text-xs">boolean</code>, <code class="text-primari text-xs">undefined</code>, <code class="text-primari text-xs">null</code>.</p>
+      </div>
+      <pre><code>let nom    = "Maria";
+let edat   = 22;
+let esMajor = true;
+
+console.log(nom + " té " + edat + " anys.");</code></pre>
+    </section>
+
+    <section id="condicionals" class="targeta">
+      <h2 class="text-xl font-bold text-primari mb-3">Condicionals</h2>
+      <p class="leading-relaxed mb-4">Les estructures condicionals permeten executar diferents blocs de codi segons si una condició és certa o falsa.</p>
+      <div class="mb-3">
+        <p class="text-text-suau text-sm"><strong class="text-text">Estructures:</strong> <code class="text-primari text-xs">if</code>, <code class="text-primari text-xs">else if</code>, <code class="text-primari text-xs">else</code>.</p>
+      </div>
+      <pre><code>let temperatura = 30;
+
+if (temperatura > 25) {
+  console.log("Fa calor");
+} else if (temperatura > 15) {
+  console.log("Temperatura agradable");
+} else {
+  console.log("Fa fred");
+}</code></pre>
+    </section>
+
+    <section id="bucles" class="targeta">
+      <h2 class="text-xl font-bold text-primari mb-3">Bucles</h2>
+      <p class="leading-relaxed mb-4">Un bucle repeteix un bloc de codi mentre es compleix una condició. Evita escriure el mateix codi moltes vegades.</p>
+      <div class="mb-3">
+        <p class="text-text-suau text-sm"><strong class="text-text">Tipus:</strong> <code class="text-primari text-xs">for</code>, <code class="text-primari text-xs">while</code>, <code class="text-primari text-xs">do while</code>.</p>
+      </div>
+      <pre><code>// Comptar de l'1 al 5
+for (let i = 1; i <= 5; i++) {
+  console.log("Número " + i);
+}
+
+// Mentre
+let x = 0;
+while (x < 3) {
+  console.log("x = " + x);
+  x++;
+}</code></pre>
+    </section>
+
+    <section id="funcions" class="targeta">
+      <h2 class="text-xl font-bold text-primari mb-3">Funcions</h2>
+      <p class="leading-relaxed mb-4">Una funció agrupa un conjunt d'instruccions sota un nom per reutilitzar-lo tantes vegades com calgui, evitant repetir codi.</p>
+      <div class="mb-3">
+        <p class="text-text-suau text-sm"><strong class="text-text">Parts:</strong> nom, paràmetres, cos, valor de retorn (<code class="text-primari text-xs">return</code>).</p>
+      </div>
+      <pre><code>function salutacio(nom) {
+  return "Hola, " + nom + "!";
+}
+
+function suma(a, b) {
+  return a + b;
+}
+
+console.log(salutacio("Pau"));
+console.log("2 + 3 = " + suma(2, 3));</code></pre>
+    </section>
+
+    <section id="arrays" class="targeta">
+      <h2 class="text-xl font-bold text-primari mb-3">Arrays</h2>
+      <p class="leading-relaxed mb-4">Un array és una col·lecció ordenada d'elements. Cada element s'identifica per la seva posició (índex), que comença a 0.</p>
+      <div class="mb-3">
+        <p class="text-text-suau text-sm"><strong class="text-text">Operacions:</strong> accedir, afegir, modificar, recórrer.</p>
+      </div>
+      <pre><code>let colors = ["vermell", "verd", "blau"];
+
+console.log(colors[0]);    // "vermell"
+console.log(colors.length); // 3
+
+for (let i = 0; i < colors.length; i++) {
+  console.log("Color: " + colors[i]);
+}</code></pre>
+    </section>
+
+    <section id="poo" class="targeta">
+      <h2 class="text-xl font-bold text-primari mb-3">Programació Orientada a Objectes</h2>
+      <p class="leading-relaxed mb-4">La POO organitza el codi en classes i objectes. Una classe és una plantilla; un objecte n'és una instància amb estat (propietats) i comportament (mètodes).</p>
+      <div class="mb-3">
+        <p class="text-text-suau text-sm"><strong class="text-text">Conceptes:</strong> classe, objecte, propietat, mètode, constructor.</p>
+      </div>
+      <pre><code>class Persona {
+  constructor(nom, edat) {
+    this.nom = nom;
+    this.edat = edat;
+  }
+
+  presentar() {
+    return "Sóc " + this.nom +
+           " i tinc " + this.edat + " anys.";
+  }
+}
+
+let joan = new Persona("Joan", 25);
+console.log(joan.presentar());</code></pre>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-text-suau text-sm py-6 border-t border-fons-alt">
+    <p>Fonaments de Programació I i II — Apunts de classe</p>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (!menu.classList.contains('hidden')) {
+          menu.classList.add('hidden');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

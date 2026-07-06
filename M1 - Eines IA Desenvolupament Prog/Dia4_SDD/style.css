@@ -1,0 +1,50 @@
+body {
+  background-color: #0F172A;
+  color: #E2E8F0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+pre {
+  background-color: #0F172A;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  white-space: pre;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border: 1px solid #1E293B;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  border: none;
+}
+
+.targeta {
+  background-color: #1E293B;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  border: 1px solid #1E293B;
+  transition: border-color 0.2s ease;
+  scroll-margin-top: 8rem;
+}
+
+.targeta:hover {
+  border-color: #A78BFA;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
