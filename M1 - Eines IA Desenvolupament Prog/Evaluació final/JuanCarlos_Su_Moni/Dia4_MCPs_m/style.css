@@ -1,0 +1,767 @@
+/* ==========================================================================
+   Estils addicionals — NutriVida
+   Tot allò que Tailwind no cobreix còmodament.
+   ========================================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ==============================
+   HEADER
+   ============================== */
+.header-revista {
+  border-bottom: 2px double var(--color-borde);
+  margin-bottom: 3rem;
+  padding: 2.5rem 0 1.5rem 0;
+  text-align: center;
+  position: relative;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.header-data {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-text-suau);
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.logo-revista {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--color-primari);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.tagline-revista {
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--color-text-suau);
+  margin-bottom: 2rem;
+}
+
+/* ==============================
+   NAVEGACIÓ
+   ============================== */
+.nav-revista {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  border-top: 1px solid var(--color-borde);
+  padding-top: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--color-primari-clar);
+}
+
+.nav-link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
+.hamburger-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text);
+  padding: 0.5rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.hamburger-btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* ==============================
+   DARK MODE SWITCH
+   ============================== */
+.dark-mode-switch {
+  margin-bottom: 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.dark-mode-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--color-fons-accent);
+  border: 1px solid var(--color-borde);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1.3rem;
+  user-select: none;
+}
+
+.dark-mode-label:hover {
+  background-color: var(--color-card-bg);
+  transform: scale(1.1);
+}
+
+[data-theme="dark"] .dm-moon { display: none; }
+[data-theme="dark"] .dm-sun { display: inline; }
+.dm-moon { display: inline; }
+.dm-sun { display: none; }
+
+/* ==============================
+   HERO
+   ============================== */
+.hero-section {
+  margin-bottom: 4rem;
+}
+
+.hero-card {
+  background-color: var(--color-fons-accent);
+  padding: 4rem 3rem;
+  border-radius: 4px;
+  text-align: center;
+  max-width: 950px;
+  margin: 0 auto;
+  border: 1px solid var(--color-borde);
+}
+
+.hero-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-accent);
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.hero-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-primari);
+  margin-bottom: 1.5rem;
+}
+
+.hero-excerpt {
+  font-size: 1.15rem;
+  color: var(--color-text-suau);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-meta {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+}
+
+/* ==============================
+   SECTION TITLES
+   ============================== */
+.section-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--color-primari);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  font-size: 1.05rem;
+  color: var(--color-text-suau);
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==============================
+   CONSELLS
+   ============================== */
+.consells-section {
+  margin-bottom: 5rem;
+  padding-top: 2rem;
+}
+
+.consells-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.consell-card {
+  background-color: var(--color-card-bg);
+  padding: 2.5rem 2rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-borde);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.consell-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px color-mix(in srgb, var(--color-primari) 10%, transparent);
+}
+
+.consell-num {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  opacity: 0.8;
+  display: block;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-borde);
+  padding-bottom: 0.5rem;
+}
+
+.consell-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--color-primari);
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.consell-text {
+  font-size: 0.95rem;
+  color: var(--color-text-suau);
+  margin: 0;
+}
+
+/* ==============================
+   PROPIETATS (SUPERALIMENTS)
+   ============================== */
+.propietats-section {
+  background-color: var(--color-fons-accent);
+  margin: 0 -1.5rem 5rem -1.5rem;
+  padding: 5rem 1.5rem;
+  border-top: 1px solid var(--color-borde);
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.propietats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.propietats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.aliment-card {
+  background-color: var(--color-card-bg);
+  padding: 2.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-borde);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aliment-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px color-mix(in srgb, var(--color-primari) 8%, transparent);
+}
+
+.aliment-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-borde);
+  padding-bottom: 1rem;
+}
+
+.aliment-icon {
+  font-size: 2.25rem;
+}
+
+.aliment-name {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primari);
+  margin: 0;
+}
+
+.aliment-beneficis {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.aliment-beneficis li {
+  font-size: 0.95rem;
+  color: var(--color-text-suau);
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.aliment-beneficis li::before {
+  content: "•";
+  color: var(--color-accent);
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -0.25rem;
+}
+
+.aliment-beneficis li strong {
+  color: var(--color-text);
+  display: block;
+  margin-bottom: 0.15rem;
+}
+
+/* ==============================
+   RECEPTES
+   ============================== */
+.receptes-section {
+  margin-bottom: 5rem;
+}
+
+.receptes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 3rem;
+}
+
+.recepta-card {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-borde);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recepta-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px color-mix(in srgb, var(--color-primari) 10%, transparent);
+}
+
+.recepta-img-placeholder {
+  height: 240px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.5rem;
+}
+
+.recipe-quinoa {
+  background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+  border-bottom: 1px solid var(--color-borde);
+}
+.recipe-quinoa::before {
+  content: "🌿";
+  font-size: 7rem;
+  opacity: 0.15;
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1rem;
+  pointer-events: none;
+}
+
+.recipe-carbassa {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  border-bottom: 1px solid var(--color-borde);
+}
+.recipe-carbassa::before {
+  content: "🥣";
+  font-size: 7rem;
+  opacity: 0.15;
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1rem;
+  pointer-events: none;
+}
+
+[data-theme="dark"] .recipe-quinoa {
+  background: linear-gradient(135deg, #1a3a1a 0%, #1f4a1f 100%);
+}
+[data-theme="dark"] .recipe-carbassa {
+  background: linear-gradient(135deg, #3a2a1a 0%, #4a351f 100%);
+}
+[data-theme="dark"] .recepta-tag {
+  background-color: #335533;
+}
+
+.recepta-tag {
+  background-color: var(--color-primari);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.4rem 0.8rem;
+  border-radius: 2px;
+}
+
+.recepta-body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.recepta-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-primari);
+  margin: 0 0 0.75rem 0;
+}
+
+.recepta-desc {
+  font-size: 0.95rem;
+  color: var(--color-text-suau);
+  margin-bottom: 1.5rem;
+}
+
+.recepta-info {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px dashed var(--color-borde);
+  padding-bottom: 1rem;
+}
+
+.recepta-ingredients h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+  margin: 0 0 0.75rem 0;
+}
+
+.recepta-ingredients ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recepta-ingredients li {
+  font-size: 0.9rem;
+  color: var(--color-text-suau);
+  margin-bottom: 0.4rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.recepta-ingredients li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: var(--color-primari-clar);
+}
+
+/* ==============================
+   RUTINES (CSS TABS)
+   ============================== */
+.rutines-section {
+  margin-bottom: 6rem;
+}
+
+.rutines-container {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-borde);
+  padding: 4rem 3rem;
+  border-radius: 4px;
+}
+
+.tabs-wrapper {
+  margin-top: 3rem;
+}
+
+.routine-tab-input {
+  display: none;
+}
+
+.tabs-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--color-borde);
+  padding-bottom: 1.5rem;
+}
+
+.tab-btn {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.8rem 2rem;
+  border: 1px solid var(--color-borde);
+  background-color: var(--color-fons);
+  color: var(--color-text-suau);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.tab-btn:hover {
+  background-color: var(--color-fons-accent);
+  color: var(--color-primari);
+  border-color: var(--color-primari-clar);
+}
+
+#tab-vegana:checked ~ .tabs-nav .label-vegana,
+#tab-vegetariana:checked ~ .tabs-nav .label-vegetariana {
+  background-color: var(--color-primari);
+  color: #fff;
+  border-color: var(--color-primari);
+}
+
+.tab-panel {
+  display: none;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+#tab-vegana:checked ~ .tab-panels .panel-vegana,
+#tab-vegetariana:checked ~ .tab-panels .panel-vegetariana {
+  display: block;
+}
+
+.panel-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+}
+
+.panel-header h4 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.8rem;
+  color: var(--color-primari);
+  margin: 0 0 0.5rem 0;
+}
+
+.panel-header p {
+  font-size: 0.95rem;
+  color: var(--color-text-suau);
+  margin: 0;
+}
+
+.meals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.meal-card {
+  background-color: var(--color-fons);
+  padding: 1.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-borde);
+  transition: transform 0.2s ease;
+}
+
+.meal-card:hover {
+  transform: scale(1.02);
+}
+
+.meal-time {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.meal-card h5 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-primari);
+  margin: 0 0 0.75rem 0;
+  line-height: 1.3;
+}
+
+.meal-card p {
+  font-size: 0.88rem;
+  color: var(--color-text-suau);
+  line-height: 1.5;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==============================
+   FOOTER
+   ============================== */
+.footer-revista {
+  background-color: var(--color-primari);
+  color: #fff;
+  padding: 4rem 0 3rem 0;
+  margin-top: 5rem;
+  border-top: 3px double var(--color-borde);
+}
+
+[data-theme="dark"] .footer-revista {
+  background-color: #132013;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.footer-logo {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 0 0 1rem 0;
+}
+
+.footer-text {
+  font-size: 0.95rem;
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+  opacity: 0.8;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1.5rem;
+  margin: 0;
+}
+
+/* ==============================
+   SCROLL & ANCHOR OFFSET
+   ============================== */
+section[id] {
+  scroll-margin-top: 6rem;
+}
+
+/* ==============================
+   TRANSITIONS
+   ============================== */
+body,
+.header-revista,
+.hero-card,
+.consell-card,
+.aliment-card,
+.recepta-card,
+.rutines-container,
+.footer-revista,
+.tab-btn,
+.meal-card,
+.dark-mode-label {
+  transition: background-color 0.3s ease, color 0.3s ease,
+              border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ==============================
+   RESPONSIVE
+   ============================== */
+@media (max-width: 600px) {
+  .header-revista { padding-top: 1.5rem; }
+  .logo-revista { font-size: 2.5rem; }
+  .hero-card { padding: 2.5rem 1.5rem; }
+  .hero-title { font-size: 1.75rem; }
+  .receptes-grid { grid-template-columns: 1fr; }
+  .rutines-container { padding: 2.5rem 1.5rem; }
+  .tabs-nav { flex-direction: column; align-items: center; }
+  .section-title { font-size: 1.75rem; }
+
+  .hamburger-btn { display: block; }
+
+  .nav-revista {
+    display: none;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .nav-revista.nav-open {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .consells-grid,
+  .propietats-grid,
+  .meals-grid {
+    grid-template-columns: 1fr;
+  }
+}
