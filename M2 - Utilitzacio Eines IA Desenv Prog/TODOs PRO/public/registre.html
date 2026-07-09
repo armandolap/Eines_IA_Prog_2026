@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registra't — TODOs Pro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: {
+        fons: '#f8fafc', targeta: '#ffffff', vora: '#e2e8f0',
+        primari: '#2563eb', 'primari-fosc': '#1d4ed8', 'primari-suau': '#dbeafe',
+        tinta: '#1e293b', suau: '#64748b',
+        fet: '#16a34a', perill: '#dc2626'
+      } } }
+    }
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-fons min-h-screen flex items-center justify-center p-4">
+  <div class="bg-targeta rounded-xl shadow-sm border border-vora p-6 w-full max-w-sm">
+    <h1 class="text-2xl font-bold text-tinta text-center mb-6">TODOs Pro</h1>
+
+    <form id="form-registre" novalidate>
+      <div class="mb-4">
+        <label for="camp-nom" class="block text-sm font-medium text-tinta mb-1">Nom</label>
+        <input id="camp-nom" type="text" class="w-full border border-vora rounded-lg px-3 py-2 text-tinta placeholder-suau focus:outline-none focus:ring-2 focus:ring-primari focus:border-transparent">
+        <p id="error-nom" class="text-perill text-sm mt-1 hidden" role="alert">Aquest camp és obligatori</p>
+      </div>
+
+      <div class="mb-4">
+        <label for="camp-email" class="block text-sm font-medium text-tinta mb-1">Email</label>
+        <input id="camp-email" type="email" class="w-full border border-vora rounded-lg px-3 py-2 text-tinta placeholder-suau focus:outline-none focus:ring-2 focus:ring-primari focus:border-transparent">
+        <p id="error-email" class="text-perill text-sm mt-1 hidden" role="alert">Aquest camp és obligatori</p>
+      </div>
+
+      <div class="mb-4">
+        <label for="camp-contrasenya" class="block text-sm font-medium text-tinta mb-1">Contrasenya</label>
+        <input id="camp-contrasenya" type="password" class="w-full border border-vora rounded-lg px-3 py-2 text-tinta placeholder-suau focus:outline-none focus:ring-2 focus:ring-primari focus:border-transparent">
+        <p id="error-contrasenya" class="text-perill text-sm mt-1 hidden" role="alert">Aquest camp és obligatori</p>
+      </div>
+
+      <div class="mb-6">
+        <label for="camp-contrasenya2" class="block text-sm font-medium text-tinta mb-1">Repeteix la contrasenya</label>
+        <input id="camp-contrasenya2" type="password" class="w-full border border-vora rounded-lg px-3 py-2 text-tinta placeholder-suau focus:outline-none focus:ring-2 focus:ring-primari focus:border-transparent">
+        <p id="error-contrasenya2" class="text-perill text-sm mt-1 hidden" role="alert">Aquest camp és obligatori</p>
+      </div>
+
+      <button type="submit" class="w-full bg-primari hover:bg-primari-fosc text-white font-medium px-4 py-2 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-primari-fosc">Crear compte</button>
+    </form>
+
+    <p class="text-sm text-suau text-center mt-4">
+      Ja tens compte? <a href="login.html" class="text-primari hover:text-primari-fosc underline">Entra</a>
+    </p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

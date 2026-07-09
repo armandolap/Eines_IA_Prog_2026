@@ -10,7 +10,7 @@ El loop:
 4. Si un criteri falla: arregla el codi i torna a comprovar aquell criteri (i els que el canvi pugui afectar).
 5. Acaba quan tots els criteris passen. Si el mateix criteri falla després de 3 intents, atura't i explica què bloqueja: no segueixis iterant a cegues.
 
-En acabar, reporta la checklist criteri per criteri amb [] o [x] i un comentari si cal. Si tot passa, marca la tasca de verificació com a feta.
+En acabar, reporta la checklist criteri per criteri amb 1i un comentari si cal. Si tot passa, marca la tasca de verificació com a feta.
 
 Regles:
 - Els criteris viuen a la spec: no te n'inventis, no en saltis, no els reinterpretis. Si un no es pot comprovar, digues-ho.
