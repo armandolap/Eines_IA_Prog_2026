@@ -1,2075 +1,2244 @@
 {
- "type": "excalidraw",
- "version": 2,
- "source": "https://excalidraw.com",
- "elements": [
-  {
-   "id": "title",
-   "type": "text",
-   "x": 340,
-   "y": 20,
-   "width": 806,
-   "height": 35.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7017,
-   "version": 1,
-   "versionNonce": 7034,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "TODOs PRO — Què fa l'agent amb el primer PROMPT?",
-   "fontSize": 28,
-   "fontFamily": 1,
-   "textAlign": "left",
-   "verticalAlign": "top",
-   "containerId": null,
-   "originalText": "TODOs PRO — Què fa l'agent amb el primer PROMPT?",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "subtitle",
-   "type": "text",
-   "x": 340,
-   "y": 66,
-   "width": 835,
-   "height": 20.0,
-   "angle": 0,
-   "strokeColor": "#868e96",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7051,
-   "version": 1,
-   "versionNonce": 7068,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "OpenCode + SDD (Specification-Driven Development) — CIFO, Eines IA per a la programació",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "left",
-   "verticalAlign": "top",
-   "containerId": null,
-   "originalText": "OpenCode + SDD (Specification-Driven Development) — CIFO, Eines IA per a la programació",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "b0",
-   "type": "rectangle",
-   "x": 430,
-   "y": 120,
-   "width": 460,
-   "height": 110,
-   "angle": 0,
-   "strokeColor": "#f08c00",
-   "backgroundColor": "#ffec99",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 7085,
-   "version": 1,
-   "versionNonce": 7102,
-   "isDeleted": false,
-   "boundElements": [
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
     {
-     "type": "text",
-     "id": "txt-b0"
+      "id": "title",
+      "type": "text",
+      "x": 340,
+      "y": 20,
+      "width": 806,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7017,
+      "version": 2,
+      "versionNonce": 13264554,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "TODOs PRO — Què fa l'agent amb el primer PROMPT?",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "TODOs PRO — Què fa l'agent amb el primer PROMPT?",
+      "lineHeight": 1.25,
+      "index": "a0",
+      "autoResize": true
     },
     {
-     "id": "arr-0",
-     "type": "arrow"
+      "id": "subtitle",
+      "type": "text",
+      "x": 340,
+      "y": 66,
+      "width": 835,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7051,
+      "version": 2,
+      "versionNonce": 343159030,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "OpenCode + SDD (Specification-Driven Development) — CIFO, Eines IA per a la programació",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "OpenCode + SDD (Specification-Driven Development) — CIFO, Eines IA per a la programació",
+      "lineHeight": 1.25,
+      "index": "a1",
+      "autoResize": true
+    },
+    {
+      "id": "b0",
+      "type": "rectangle",
+      "x": 430,
+      "y": 120,
+      "width": 460,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 7085,
+      "version": 2,
+      "versionNonce": 1088160106,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-b0"
+        },
+        {
+          "id": "arr-0",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "index": "a2"
+    },
+    {
+      "id": "txt-b0",
+      "type": "text",
+      "x": 442,
+      "y": 132,
+      "width": 436,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7119,
+      "version": 2,
+      "versionNonce": 1273930294,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "👤 0. EL PRIMER PROMPT (PROMPT.md)\n«Llegeix AGENTS.md i recorda les regles.\nLlegeix spec/ i continua el projecte»\nL'usuari NO diu què construir: tot és a spec/",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "b0",
+      "originalText": "👤 0. EL PRIMER PROMPT (PROMPT.md)\n«Llegeix AGENTS.md i recorda les regles.\nLlegeix spec/ i continua el projecte»\nL'usuari NO diu què construir: tot és a spec/",
+      "lineHeight": 1.25,
+      "index": "a3",
+      "autoResize": true
+    },
+    {
+      "id": "b1",
+      "type": "rectangle",
+      "x": 430,
+      "y": 290,
+      "width": 460,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#6741d9",
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 7153,
+      "version": 2,
+      "versionNonce": 694961194,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-b1"
+        },
+        {
+          "id": "arr-0",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-1",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "index": "a4"
+    },
+    {
+      "id": "txt-b1",
+      "type": "text",
+      "x": 442,
+      "y": 302,
+      "width": 436,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7187,
+      "version": 2,
+      "versionNonce": 629730166,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "⚙️ 1. OPENCODE ARRENCA\nLlegeix opencode.json i aixeca els 3 MCP:\ncontext7 (docs), playwright (navegador),\nmysql (base de dades todos_pro)\nTambé detecta AGENTS.md i .agents/skills/",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "b1",
+      "originalText": "⚙️ 1. OPENCODE ARRENCA\nLlegeix opencode.json i aixeca els 3 MCP:\ncontext7 (docs), playwright (navegador),\nmysql (base de dades todos_pro)\nTambé detecta AGENTS.md i .agents/skills/",
+      "lineHeight": 1.25,
+      "index": "a5",
+      "autoResize": true
+    },
+    {
+      "id": "b2",
+      "type": "rectangle",
+      "x": 430,
+      "y": 480,
+      "width": 460,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "#ffc9c9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 7221,
+      "version": 2,
+      "versionNonce": 73805546,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-b2"
+        },
+        {
+          "id": "arr-1",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-2",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "index": "a6"
+    },
+    {
+      "id": "txt-b2",
+      "type": "text",
+      "x": 442,
+      "y": 492,
+      "width": 436,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7255,
+      "version": 2,
+      "versionNonce": 2139622582,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "📜 2. LLEGEIX AGENTS.md — LES REGLES\nSDD: spec/ és l'ÚNICA font de veritat\nAplica les skills del projecte\nSi és una pregunta: respon, cap canvi\nNomés dins la carpeta, tot en català",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "b2",
+      "originalText": "📜 2. LLEGEIX AGENTS.md — LES REGLES\nSDD: spec/ és l'ÚNICA font de veritat\nAplica les skills del projecte\nSi és una pregunta: respon, cap canvi\nNomés dins la carpeta, tot en català",
+      "lineHeight": 1.25,
+      "index": "a7",
+      "autoResize": true
+    },
+    {
+      "id": "b3",
+      "type": "rectangle",
+      "x": 430,
+      "y": 670,
+      "width": 460,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 7289,
+      "version": 2,
+      "versionNonce": 643088810,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-b3"
+        },
+        {
+          "id": "arr-2",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-3",
+          "type": "arrow"
+        },
+        {
+          "id": "con-spec-3",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "index": "a8"
+    },
+    {
+      "id": "txt-b3",
+      "type": "text",
+      "x": 442,
+      "y": 682,
+      "width": 436,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7323,
+      "version": 2,
+      "versionNonce": 663815670,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "🏛️ 3. LLEGEIX spec/constitution/\n1-mission: QUÈ és el producte i per a qui\n2-tech-stack: COM es construeix (FRONT/BACK)\n3-roadmap: en quin ORDRE va cada feature\ni el seu estat: pendent → en curs → feta",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "b3",
+      "originalText": "🏛️ 3. LLEGEIX spec/constitution/\n1-mission: QUÈ és el producte i per a qui\n2-tech-stack: COM es construeix (FRONT/BACK)\n3-roadmap: en quin ORDRE va cada feature\ni el seu estat: pendent → en curs → feta",
+      "lineHeight": 1.25,
+      "index": "a9",
+      "autoResize": true
+    },
+    {
+      "id": "b4",
+      "type": "rectangle",
+      "x": 430,
+      "y": 860,
+      "width": 460,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 7357,
+      "version": 2,
+      "versionNonce": 442694762,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-b4"
+        },
+        {
+          "id": "arr-3",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-4",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-next",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "index": "aA"
+    },
+    {
+      "id": "txt-b4",
+      "type": "text",
+      "x": 442,
+      "y": 872,
+      "width": 436,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7391,
+      "version": 2,
+      "versionNonce": 1856558902,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "🧭 4. DECIDEIX QUÈ TOCA\nBusca al roadmap la primera feature no FETA\nAra: 004-back-disseny-DB (PENDENT)\nLa passa a «en curs»: el roadmap és un\ndocument viu que reflecteix l'estat real",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "b4",
+      "originalText": "🧭 4. DECIDEIX QUÈ TOCA\nBusca al roadmap la primera feature no FETA\nAra: 004-back-disseny-DB (PENDENT)\nLa passa a «en curs»: el roadmap és un\ndocument viu que reflecteix l'estat real",
+      "lineHeight": 1.25,
+      "index": "aB",
+      "autoResize": true
+    },
+    {
+      "id": "b5",
+      "type": "rectangle",
+      "x": 430,
+      "y": 1050,
+      "width": 460,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 7425,
+      "version": 2,
+      "versionNonce": 1314643754,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-b5"
+        },
+        {
+          "id": "arr-4",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-5",
+          "type": "arrow"
+        },
+        {
+          "id": "con-spec-5",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "index": "aC"
+    },
+    {
+      "id": "txt-b5",
+      "type": "text",
+      "x": 442,
+      "y": 1062,
+      "width": 436,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7459,
+      "version": 2,
+      "versionNonce": 1026850934,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "📋 5. LLEGEIX LA FEATURE SENCERA\nspec/features/004-back-disseny-DB/\n1-spec.md: QUÈ + criteris d'acceptació\n2-plan.md: COM, les decisions tècniques\n3-tasks.md: checklist de tasques T1…T5",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "b5",
+      "originalText": "📋 5. LLEGEIX LA FEATURE SENCERA\nspec/features/004-back-disseny-DB/\n1-spec.md: QUÈ + criteris d'acceptació\n2-plan.md: COM, les decisions tècniques\n3-tasks.md: checklist de tasques T1…T5",
+      "lineHeight": 1.25,
+      "index": "aD",
+      "autoResize": true
+    },
+    {
+      "id": "b6",
+      "type": "rectangle",
+      "x": 430,
+      "y": 1240,
+      "width": 460,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#6741d9",
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 7493,
+      "version": 2,
+      "versionNonce": 1051355626,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-b6"
+        },
+        {
+          "id": "arr-5",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-6",
+          "type": "arrow"
+        },
+        {
+          "id": "con-skills-6",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "index": "aE"
+    },
+    {
+      "id": "txt-b6",
+      "type": "text",
+      "x": 442,
+      "y": 1252,
+      "width": 436,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7527,
+      "version": 2,
+      "versionNonce": 653853110,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "🧠 6. CARREGA LES SKILLS QUE APLIQUEN\nEl pla apunta a la skill mysql:\nPK BIGINT UNSIGNED, utf8mb4, NOT NULL,\nDATETIME… estàndards d'expert, no improvisa",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "b6",
+      "originalText": "🧠 6. CARREGA LES SKILLS QUE APLIQUEN\nEl pla apunta a la skill mysql:\nPK BIGINT UNSIGNED, utf8mb4, NOT NULL,\nDATETIME… estàndards d'expert, no improvisa",
+      "lineHeight": 1.25,
+      "index": "aF",
+      "autoResize": true
+    },
+    {
+      "id": "b7",
+      "type": "rectangle",
+      "x": 430,
+      "y": 1410,
+      "width": 460,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 7561,
+      "version": 2,
+      "versionNonce": 576298154,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-b7"
+        },
+        {
+          "id": "arr-6",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-7",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-loop",
+          "type": "arrow"
+        },
+        {
+          "id": "con-mcp-7",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "index": "aG"
+    },
+    {
+      "id": "txt-b7",
+      "type": "text",
+      "x": 442,
+      "y": 1422,
+      "width": 436,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7595,
+      "version": 2,
+      "versionNonce": 2132499190,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "🛠️ 7. EXECUTA LES TASQUES (T1 → T5)\nUna a una i en ordre: escriu schema.sql\n(users + todos amb FOREIGN KEY)\nMCP context7: consulta sintaxi actualitzada\nMCP mysql: aplica l'esquema a la BD real",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "b7",
+      "originalText": "🛠️ 7. EXECUTA LES TASQUES (T1 → T5)\nUna a una i en ordre: escriu schema.sql\n(users + todos amb FOREIGN KEY)\nMCP context7: consulta sintaxi actualitzada\nMCP mysql: aplica l'esquema a la BD real",
+      "lineHeight": 1.25,
+      "index": "aH",
+      "autoResize": true
+    },
+    {
+      "id": "b8",
+      "type": "rectangle",
+      "x": 430,
+      "y": 1600,
+      "width": 460,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#099268",
+      "backgroundColor": "#96f2d7",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 7629,
+      "version": 2,
+      "versionNonce": 387217258,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-b8"
+        },
+        {
+          "id": "arr-7",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-8",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-loop",
+          "type": "arrow"
+        },
+        {
+          "id": "con-mcp-8",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "index": "aI"
+    },
+    {
+      "id": "txt-b8",
+      "type": "text",
+      "x": 471.6161193847656,
+      "y": 1625,
+      "width": 376.76776123046875,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7663,
+      "version": 153,
+      "versionNonce": 606831210,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783614849617,
+      "link": null,
+      "locked": false,
+      "text": "✅ 8. LOOP DE VERIFICACIÓ FRONT\nProva els criteris d'acceptació de 1-spec de les\nfeatures del FRONT i es verifica amb el MCP\nplaywright)",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "b8",
+      "originalText": "✅ 8. LOOP DE VERIFICACIÓ FRONT\nProva els criteris d'acceptació de 1-spec de les features del FRONT i es verifica amb el MCP playwright)",
+      "lineHeight": 1.25,
+      "index": "aJ",
+      "autoResize": true
+    },
+    {
+      "id": "b9",
+      "type": "rectangle",
+      "x": 430,
+      "y": 1790,
+      "width": 460,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 7697,
+      "version": 2,
+      "versionNonce": 1294334506,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-b9"
+        },
+        {
+          "id": "arr-8",
+          "type": "arrow"
+        },
+        {
+          "id": "arr-next",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "index": "aK"
+    },
+    {
+      "id": "txt-b9",
+      "type": "text",
+      "x": 476.0721130371094,
+      "y": 1805,
+      "width": 367.85577392578125,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 7731,
+      "version": 16,
+      "versionNonce": 1284862966,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783614878514,
+      "link": null,
+      "locked": false,
+      "text": "🏁 9. TANCA LA FEATURE\nMarca [x] les tasques a 3-tasks.md\nActualitza el roadmap:  feat → FETA\nResumeix a l'usuari què s'ha fet\nEl codi és un derivat de la spec, mai al revés",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "b9",
+      "originalText": "🏁 9. TANCA LA FEATURE\nMarca [x] les tasques a 3-tasks.md\nActualitza el roadmap:  feat → FETA\nResumeix a l'usuari què s'ha fet\nEl codi és un derivat de la spec, mai al revés",
+      "lineHeight": 1.25,
+      "index": "aL",
+      "autoResize": true
+    },
+    {
+      "id": "arr-0",
+      "type": "arrow",
+      "x": 660,
+      "y": 234,
+      "width": 0,
+      "height": 52,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 7765,
+      "version": 2,
+      "versionNonce": 863577322,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          52
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "b0",
+        "fixedPoint": [
+          0.5001,
+          1
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b1",
+        "fixedPoint": [
+          0.5001,
+          0
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "index": "aM"
+    },
+    {
+      "id": "arr-1",
+      "type": "arrow",
+      "x": 660,
+      "y": 424,
+      "width": 0,
+      "height": 52,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 7799,
+      "version": 2,
+      "versionNonce": 935818934,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          52
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "b1",
+        "fixedPoint": [
+          0.5001,
+          1
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b2",
+        "fixedPoint": [
+          0.5001,
+          0
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "index": "aN"
+    },
+    {
+      "id": "arr-2",
+      "type": "arrow",
+      "x": 660,
+      "y": 614,
+      "width": 0,
+      "height": 52,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 7833,
+      "version": 2,
+      "versionNonce": 597227434,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          52
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "b2",
+        "fixedPoint": [
+          0.5001,
+          1
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b3",
+        "fixedPoint": [
+          0.5001,
+          0
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "index": "aO"
+    },
+    {
+      "id": "arr-3",
+      "type": "arrow",
+      "x": 660,
+      "y": 804,
+      "width": 0,
+      "height": 52,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 7867,
+      "version": 2,
+      "versionNonce": 944975862,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          52
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "b3",
+        "fixedPoint": [
+          0.5001,
+          1
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b4",
+        "fixedPoint": [
+          0.5001,
+          0
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "index": "aP"
+    },
+    {
+      "id": "arr-4",
+      "type": "arrow",
+      "x": 660,
+      "y": 994,
+      "width": 0,
+      "height": 52,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 7901,
+      "version": 2,
+      "versionNonce": 229667434,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          52
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "b4",
+        "fixedPoint": [
+          0.5001,
+          1
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b5",
+        "fixedPoint": [
+          0.5001,
+          0
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "index": "aQ"
+    },
+    {
+      "id": "arr-5",
+      "type": "arrow",
+      "x": 660,
+      "y": 1184,
+      "width": 0,
+      "height": 52,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 7935,
+      "version": 2,
+      "versionNonce": 966115638,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          52
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "b5",
+        "fixedPoint": [
+          0.5001,
+          1
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b6",
+        "fixedPoint": [
+          0.5001,
+          0
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "index": "aR"
+    },
+    {
+      "id": "arr-6",
+      "type": "arrow",
+      "x": 660,
+      "y": 1354,
+      "width": 0,
+      "height": 52,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 7969,
+      "version": 2,
+      "versionNonce": 613061930,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          52
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "b6",
+        "fixedPoint": [
+          0.5001,
+          1
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b7",
+        "fixedPoint": [
+          0.5001,
+          0
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "index": "aS"
+    },
+    {
+      "id": "arr-7",
+      "type": "arrow",
+      "x": 660,
+      "y": 1544,
+      "width": 0,
+      "height": 52,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 8003,
+      "version": 2,
+      "versionNonce": 787753590,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          52
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "b7",
+        "fixedPoint": [
+          0.5001,
+          1
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b8",
+        "fixedPoint": [
+          0.5001,
+          0
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "index": "aT"
+    },
+    {
+      "id": "arr-8",
+      "type": "arrow",
+      "x": 660,
+      "y": 1734,
+      "width": 0,
+      "height": 52,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 8037,
+      "version": 2,
+      "versionNonce": 160587754,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "lbl-arr-8"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          52
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "b8",
+        "fixedPoint": [
+          0.5001,
+          1
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b9",
+        "fixedPoint": [
+          0.5001,
+          0
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "index": "aU"
+    },
+    {
+      "id": "lbl-arr-8",
+      "type": "text",
+      "x": 610.5,
+      "y": 1760,
+      "width": 99,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 8071,
+      "version": 2,
+      "versionNonce": 1462987702,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "✔ tot passa",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arr-8",
+      "originalText": "✔ tot passa",
+      "lineHeight": 1.25,
+      "index": "aV",
+      "autoResize": true
+    },
+    {
+      "id": "arr-loop",
+      "type": "arrow",
+      "x": 430,
+      "y": 1665,
+      "width": 42,
+      "height": 190,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 8105,
+      "version": 2,
+      "versionNonce": 2027082410,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "lbl-arr-loop"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -42,
+          -45
+        ],
+        [
+          -42,
+          -150
+        ],
+        [
+          0,
+          -190
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "b8",
+        "fixedPoint": [
+          0.10435779816513932,
+          0.8956422018348575
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b7",
+        "fixedPoint": [
+          0.11441743503772187,
+          0.11441743503772053
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "index": "aW"
+    },
+    {
+      "id": "lbl-arr-loop",
+      "type": "text",
+      "x": 380.5,
+      "y": 1760,
+      "width": 99,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 8139,
+      "version": 2,
+      "versionNonce": 1350075638,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "❌ falla\n→ corregeix",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arr-loop",
+      "originalText": "❌ falla\n→ corregeix",
+      "lineHeight": 1.25,
+      "index": "aX",
+      "autoResize": true
+    },
+    {
+      "id": "arr-next",
+      "type": "arrow",
+      "x": 430,
+      "y": 1855,
+      "width": 58,
+      "height": 930,
+      "angle": 0,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 8173,
+      "version": 2,
+      "versionNonce": 1962339690,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "lbl-arr-next"
+        }
+      ],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -58,
+          -120
+        ],
+        [
+          -58,
+          -815
+        ],
+        [
+          0,
+          -930
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "b9",
+        "fixedPoint": [
+          0.06008925725215009,
+          0.9399107427478507
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b4",
+        "fixedPoint": [
+          0.06237590999338068,
+          0.06237590999337849
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "index": "aY"
+    },
+    {
+      "id": "lbl-arr-next",
+      "type": "text",
+      "x": 353.5,
+      "y": 2320,
+      "width": 153,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#f08c00",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 8207,
+      "version": 2,
+      "versionNonce": 742946358,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783613853393,
+      "link": null,
+      "locked": false,
+      "text": "nou «continua»\n→ següent feature",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arr-next",
+      "originalText": "nou «continua»\n→ següent feature",
+      "lineHeight": 1.25,
+      "index": "aZ",
+      "autoResize": true
+    },
+    {
+      "id": "p-spec",
+      "type": "rectangle",
+      "x": 19.888721625127232,
+      "y": 689.7809206994691,
+      "width": 350,
+      "height": 204.8209798016396,
+      "angle": 0,
+      "strokeColor": "#495057",
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 8241,
+      "version": 54,
+      "versionNonce": 1507936566,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-p-spec"
+        },
+        {
+          "id": "con-spec-3",
+          "type": "arrow"
+        },
+        {
+          "id": "con-spec-5",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783614896227,
+      "link": null,
+      "locked": false,
+      "index": "aa"
+    },
+    {
+      "id": "txt-p-spec",
+      "type": "text",
+      "x": 24.888721625127232,
+      "y": 712.1914106002889,
+      "width": 326,
+      "height": 160,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 8275,
+      "version": 54,
+      "versionNonce": 1284420214,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783614896227,
+      "link": null,
+      "locked": false,
+      "text": "📁 spec/ — L'ÚNICA FONT DE VERITAT\nconstitution/ — el marc estable:\n   1-mission, 2-tech-stack, 3-roadmap\nfeatures/NNN-nom/ — una per feature:\n   1-spec: QUÈ (criteris d'acceptació)\n   2-plan: COM (decisions tècniques)\n   3-tasks: PASSOS (checklist [ ]/[x])\nSi no és a la spec, no existeix",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": "p-spec",
+      "originalText": "📁 spec/ — L'ÚNICA FONT DE VERITAT\nconstitution/ — el marc estable:\n   1-mission, 2-tech-stack, 3-roadmap\nfeatures/NNN-nom/ — una per feature:\n   1-spec: QUÈ (criteris d'acceptació)\n   2-plan: COM (decisions tècniques)\n   3-tasks: PASSOS (checklist [ ]/[x])\nSi no és a la spec, no existeix",
+      "lineHeight": 1.25,
+      "index": "ab",
+      "autoResize": true
+    },
+    {
+      "id": "p-skills",
+      "type": "rectangle",
+      "x": 950,
+      "y": 1049.8887216251273,
+      "width": 350,
+      "height": 196.4008856868411,
+      "angle": 0,
+      "strokeColor": "#495057",
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 8309,
+      "version": 26,
+      "versionNonce": 653867958,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-p-skills"
+        },
+        {
+          "id": "con-skills-6",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783614905210,
+      "link": null,
+      "locked": false,
+      "index": "ac"
+    },
+    {
+      "id": "txt-p-skills",
+      "type": "text",
+      "x": 955,
+      "y": 1068.089164468548,
+      "width": 326,
+      "height": 160,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 8343,
+      "version": 26,
+      "versionNonce": 1191466230,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783614905210,
+      "link": null,
+      "locked": false,
+      "text": "🧠 SKILLS — coneixement expert\nFitxers Markdown a .agents/skills/\nque guien COM s'ha de fer la feina:\nestil-todos: colors, tipografia, layout\nmysql: com dissenyar un bon esquema\nloop-verificacio: com comprovar-ho tot\nfetch-api, frontend-design, documentar…\nSense skills: codi genèric i improvisat",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": "p-skills",
+      "originalText": "🧠 SKILLS — coneixement expert\nFitxers Markdown a .agents/skills/\nque guien COM s'ha de fer la feina:\nestil-todos: colors, tipografia, layout\nmysql: com dissenyar un bon esquema\nloop-verificacio: com comprovar-ho tot\nfetch-api, frontend-design, documentar…\nSense skills: codi genèric i improvisat",
+      "lineHeight": 1.25,
+      "index": "ad",
+      "autoResize": true
+    },
+    {
+      "id": "p-mcp",
+      "type": "rectangle",
+      "x": 950.2329890973899,
+      "y": 1409.8817667266976,
+      "width": 350,
+      "height": 201.1649911110835,
+      "angle": 0,
+      "strokeColor": "#495057",
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 8377,
+      "version": 23,
+      "versionNonce": 1243759018,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "txt-p-mcp"
+        },
+        {
+          "id": "con-mcp-7",
+          "type": "arrow"
+        },
+        {
+          "id": "con-mcp-8",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1783614902077,
+      "link": null,
+      "locked": false,
+      "index": "ae"
+    },
+    {
+      "id": "txt-p-mcp",
+      "type": "text",
+      "x": 955.2329890973899,
+      "y": 1430.4642622822394,
+      "width": 326,
+      "height": 160,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 8411,
+      "version": 23,
+      "versionNonce": 1753250922,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783614902077,
+      "link": null,
+      "locked": false,
+      "text": "🔌 MCP — les «mans» de l'agent\nServidors configurats a opencode.json\nque el connecten amb el món real:\ncontext7: documentació al dia (remot)\nplaywright: controla el navegador\nmysql: executa SQL a la BD todos_pro\nSense MCP només generaria text:\nno podria APLICAR ni VERIFICAR res",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": "p-mcp",
+      "originalText": "🔌 MCP — les «mans» de l'agent\nServidors configurats a opencode.json\nque el connecten amb el món real:\ncontext7: documentació al dia (remot)\nplaywright: controla el navegador\nmysql: executa SQL a la BD todos_pro\nSense MCP només generaria text:\nno podria APLICAR ni VERIFICAR res",
+      "lineHeight": 1.25,
+      "index": "af",
+      "autoResize": true
+    },
+    {
+      "id": "con-spec-3",
+      "type": "arrow",
+      "x": 375.88872162512723,
+      "y": 746.6915655788026,
+      "width": 48.11127837487277,
+      "height": 7.590155663927021,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 8445,
+      "version": 54,
+      "versionNonce": 1883042742,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783614896227,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          48.11127837487277,
+          -7.590155663927021
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "p-spec",
+        "fixedPoint": [
+          0.6132644871127181,
+          0.386735512887281
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b3",
+        "fixedPoint": [
+          0.3364495345433909,
+          0.33644953454339044
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "index": "ag",
+      "moveMidPointsWithElement": false
+    },
+    {
+      "id": "con-spec-5",
+      "type": "arrow",
+      "x": 302.71359803971114,
+      "y": 900.6019005011087,
+      "width": 121.28640196028886,
+      "height": 204.30423358720736,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 8479,
+      "version": 54,
+      "versionNonce": 521211126,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783614896227,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          121.28640196028886,
+          204.30423358720736
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "p-spec",
+        "fixedPoint": [
+          0.5921691795222828,
+          0.4078308204777177
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b5",
+        "fixedPoint": [
+          0,
+          0.5001
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "index": "ah",
+      "moveMidPointsWithElement": false
+    },
+    {
+      "id": "con-skills-6",
+      "type": "arrow",
+      "x": 962.1841365179283,
+      "y": 1248.4144080946285,
+      "width": 66.18413651792844,
+      "height": 42.7236067928668,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 8513,
+      "version": 26,
+      "versionNonce": 14304822,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783614905211,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -66.18413651792844,
+          42.7236067928668
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "p-skills",
+        "fixedPoint": [
+          0.3384296430339028,
+          0.6615703569660977
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b6",
+        "fixedPoint": [
+          1,
+          0.5001
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "index": "ai",
+      "moveMidPointsWithElement": false
+    },
+    {
+      "id": "con-mcp-7",
+      "type": "arrow",
+      "x": 944.2329890973901,
+      "y": 1474.318089115605,
+      "width": 48.23298909739026,
+      "height": 0.6180302739810486,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 8547,
+      "version": 23,
+      "versionNonce": 2093571882,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783614902077,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -48.23298909739026,
+          0.6180302739810486
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "p-mcp",
+        "fixedPoint": [
+          0.31295666294983027,
+          0.31295666294983043
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b7",
+        "fixedPoint": [
+          1,
+          0.5001
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "index": "aj",
+      "moveMidPointsWithElement": false
+    },
+    {
+      "id": "con-mcp-8",
+      "type": "arrow",
+      "x": 959.659210491006,
+      "y": 1611.6996357322996,
+      "width": 63.65921049100598,
+      "height": 48.72132716170631,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 8581,
+      "version": 23,
+      "versionNonce": 1130883562,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1783614902078,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -63.65921049100598,
+          48.72132716170631
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "mode": "orbit",
+        "elementId": "p-mcp",
+        "fixedPoint": [
+          0.11794756239497896,
+          0.8820524376050215
+        ]
+      },
+      "endBinding": {
+        "mode": "orbit",
+        "elementId": "b8",
+        "fixedPoint": [
+          1,
+          0.5001
+        ]
+      },
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "index": "ak",
+      "moveMidPointsWithElement": false
     }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
   },
-  {
-   "id": "txt-b0",
-   "type": "text",
-   "x": 442,
-   "y": 132,
-   "width": 436,
-   "height": 80.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7119,
-   "version": 1,
-   "versionNonce": 7136,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "👤 0. EL PRIMER PROMPT (PROMPT.md)\n«Llegeix AGENTS.md i recorda les regles.\nLlegeix spec/ i continua el projecte»\nL'usuari NO diu què construir: tot és a spec/",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "b0",
-   "originalText": "👤 0. EL PRIMER PROMPT (PROMPT.md)\n«Llegeix AGENTS.md i recorda les regles.\nLlegeix spec/ i continua el projecte»\nL'usuari NO diu què construir: tot és a spec/",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "b1",
-   "type": "rectangle",
-   "x": 430,
-   "y": 290,
-   "width": 460,
-   "height": 130,
-   "angle": 0,
-   "strokeColor": "#6741d9",
-   "backgroundColor": "#d0bfff",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 7153,
-   "version": 1,
-   "versionNonce": 7170,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-b1"
-    },
-    {
-     "id": "arr-0",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-1",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-b1",
-   "type": "text",
-   "x": 442,
-   "y": 302,
-   "width": 436,
-   "height": 100.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7187,
-   "version": 1,
-   "versionNonce": 7204,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "⚙️ 1. OPENCODE ARRENCA\nLlegeix opencode.json i aixeca els 3 MCP:\ncontext7 (docs), playwright (navegador),\nmysql (base de dades todos_pro)\nTambé detecta AGENTS.md i .agents/skills/",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "b1",
-   "originalText": "⚙️ 1. OPENCODE ARRENCA\nLlegeix opencode.json i aixeca els 3 MCP:\ncontext7 (docs), playwright (navegador),\nmysql (base de dades todos_pro)\nTambé detecta AGENTS.md i .agents/skills/",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "b2",
-   "type": "rectangle",
-   "x": 430,
-   "y": 480,
-   "width": 460,
-   "height": 130,
-   "angle": 0,
-   "strokeColor": "#e03131",
-   "backgroundColor": "#ffc9c9",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 7221,
-   "version": 1,
-   "versionNonce": 7238,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-b2"
-    },
-    {
-     "id": "arr-1",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-2",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-b2",
-   "type": "text",
-   "x": 442,
-   "y": 492,
-   "width": 436,
-   "height": 100.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7255,
-   "version": 1,
-   "versionNonce": 7272,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "📜 2. LLEGEIX AGENTS.md — LES REGLES\nSDD: spec/ és l'ÚNICA font de veritat\nAplica les skills del projecte\nSi és una pregunta: respon, cap canvi\nNomés dins la carpeta, tot en català",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "b2",
-   "originalText": "📜 2. LLEGEIX AGENTS.md — LES REGLES\nSDD: spec/ és l'ÚNICA font de veritat\nAplica les skills del projecte\nSi és una pregunta: respon, cap canvi\nNomés dins la carpeta, tot en català",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "b3",
-   "type": "rectangle",
-   "x": 430,
-   "y": 670,
-   "width": 460,
-   "height": 130,
-   "angle": 0,
-   "strokeColor": "#1971c2",
-   "backgroundColor": "#a5d8ff",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 7289,
-   "version": 1,
-   "versionNonce": 7306,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-b3"
-    },
-    {
-     "id": "arr-2",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-3",
-     "type": "arrow"
-    },
-    {
-     "id": "con-spec-3",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-b3",
-   "type": "text",
-   "x": 442,
-   "y": 682,
-   "width": 436,
-   "height": 100.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7323,
-   "version": 1,
-   "versionNonce": 7340,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "🏛️ 3. LLEGEIX spec/constitution/\n1-mission: QUÈ és el producte i per a qui\n2-tech-stack: COM es construeix (FRONT/BACK)\n3-roadmap: en quin ORDRE va cada feature\ni el seu estat: pendent → en curs → feta",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "b3",
-   "originalText": "🏛️ 3. LLEGEIX spec/constitution/\n1-mission: QUÈ és el producte i per a qui\n2-tech-stack: COM es construeix (FRONT/BACK)\n3-roadmap: en quin ORDRE va cada feature\ni el seu estat: pendent → en curs → feta",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "b4",
-   "type": "rectangle",
-   "x": 430,
-   "y": 860,
-   "width": 460,
-   "height": 130,
-   "angle": 0,
-   "strokeColor": "#e8590c",
-   "backgroundColor": "#ffd8a8",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 7357,
-   "version": 1,
-   "versionNonce": 7374,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-b4"
-    },
-    {
-     "id": "arr-3",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-4",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-next",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-b4",
-   "type": "text",
-   "x": 442,
-   "y": 872,
-   "width": 436,
-   "height": 100.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7391,
-   "version": 1,
-   "versionNonce": 7408,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "🧭 4. DECIDEIX QUÈ TOCA\nBusca al roadmap la primera feature no FETA\nAra: 004-back-disseny-DB (PENDENT)\nLa passa a «en curs»: el roadmap és un\ndocument viu que reflecteix l'estat real",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "b4",
-   "originalText": "🧭 4. DECIDEIX QUÈ TOCA\nBusca al roadmap la primera feature no FETA\nAra: 004-back-disseny-DB (PENDENT)\nLa passa a «en curs»: el roadmap és un\ndocument viu que reflecteix l'estat real",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "b5",
-   "type": "rectangle",
-   "x": 430,
-   "y": 1050,
-   "width": 460,
-   "height": 130,
-   "angle": 0,
-   "strokeColor": "#1971c2",
-   "backgroundColor": "#a5d8ff",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 7425,
-   "version": 1,
-   "versionNonce": 7442,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-b5"
-    },
-    {
-     "id": "arr-4",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-5",
-     "type": "arrow"
-    },
-    {
-     "id": "con-spec-5",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-b5",
-   "type": "text",
-   "x": 442,
-   "y": 1062,
-   "width": 436,
-   "height": 100.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7459,
-   "version": 1,
-   "versionNonce": 7476,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "📋 5. LLEGEIX LA FEATURE SENCERA\nspec/features/004-back-disseny-DB/\n1-spec.md: QUÈ + criteris d'acceptació\n2-plan.md: COM, les decisions tècniques\n3-tasks.md: checklist de tasques T1…T5",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "b5",
-   "originalText": "📋 5. LLEGEIX LA FEATURE SENCERA\nspec/features/004-back-disseny-DB/\n1-spec.md: QUÈ + criteris d'acceptació\n2-plan.md: COM, les decisions tècniques\n3-tasks.md: checklist de tasques T1…T5",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "b6",
-   "type": "rectangle",
-   "x": 430,
-   "y": 1240,
-   "width": 460,
-   "height": 110,
-   "angle": 0,
-   "strokeColor": "#6741d9",
-   "backgroundColor": "#d0bfff",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 7493,
-   "version": 1,
-   "versionNonce": 7510,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-b6"
-    },
-    {
-     "id": "arr-5",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-6",
-     "type": "arrow"
-    },
-    {
-     "id": "con-skills-6",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-b6",
-   "type": "text",
-   "x": 442,
-   "y": 1252,
-   "width": 436,
-   "height": 80.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7527,
-   "version": 1,
-   "versionNonce": 7544,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "🧠 6. CARREGA LES SKILLS QUE APLIQUEN\nEl pla apunta a la skill mysql:\nPK BIGINT UNSIGNED, utf8mb4, NOT NULL,\nDATETIME… estàndards d'expert, no improvisa",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "b6",
-   "originalText": "🧠 6. CARREGA LES SKILLS QUE APLIQUEN\nEl pla apunta a la skill mysql:\nPK BIGINT UNSIGNED, utf8mb4, NOT NULL,\nDATETIME… estàndards d'expert, no improvisa",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "b7",
-   "type": "rectangle",
-   "x": 430,
-   "y": 1410,
-   "width": 460,
-   "height": 130,
-   "angle": 0,
-   "strokeColor": "#2f9e44",
-   "backgroundColor": "#b2f2bb",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 7561,
-   "version": 1,
-   "versionNonce": 7578,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-b7"
-    },
-    {
-     "id": "arr-6",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-7",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-loop",
-     "type": "arrow"
-    },
-    {
-     "id": "con-mcp-7",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-b7",
-   "type": "text",
-   "x": 442,
-   "y": 1422,
-   "width": 436,
-   "height": 100.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7595,
-   "version": 1,
-   "versionNonce": 7612,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "🛠️ 7. EXECUTA LES TASQUES (T1 → T5)\nUna a una i en ordre: escriu schema.sql\n(users + todos amb FOREIGN KEY)\nMCP context7: consulta sintaxi actualitzada\nMCP mysql: aplica l'esquema a la BD real",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "b7",
-   "originalText": "🛠️ 7. EXECUTA LES TASQUES (T1 → T5)\nUna a una i en ordre: escriu schema.sql\n(users + todos amb FOREIGN KEY)\nMCP context7: consulta sintaxi actualitzada\nMCP mysql: aplica l'esquema a la BD real",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "b8",
-   "type": "rectangle",
-   "x": 430,
-   "y": 1600,
-   "width": 460,
-   "height": 130,
-   "angle": 0,
-   "strokeColor": "#099268",
-   "backgroundColor": "#96f2d7",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 7629,
-   "version": 1,
-   "versionNonce": 7646,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-b8"
-    },
-    {
-     "id": "arr-7",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-8",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-loop",
-     "type": "arrow"
-    },
-    {
-     "id": "con-mcp-8",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-b8",
-   "type": "text",
-   "x": 442,
-   "y": 1612,
-   "width": 436,
-   "height": 100.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7663,
-   "version": 1,
-   "versionNonce": 7680,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "✅ 8. LOOP DE VERIFICACIÓ\nProva els criteris d'acceptació de 1-spec.md\namb el MCP mysql: email UNIQUE rebutja\nduplicats? la FK bloqueja user_id inexistent?\n(al FRONT es verifica amb el MCP playwright)",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "b8",
-   "originalText": "✅ 8. LOOP DE VERIFICACIÓ\nProva els criteris d'acceptació de 1-spec.md\namb el MCP mysql: email UNIQUE rebutja\nduplicats? la FK bloqueja user_id inexistent?\n(al FRONT es verifica amb el MCP playwright)",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "b9",
-   "type": "rectangle",
-   "x": 430,
-   "y": 1790,
-   "width": 460,
-   "height": 130,
-   "angle": 0,
-   "strokeColor": "#2f9e44",
-   "backgroundColor": "#b2f2bb",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 7697,
-   "version": 1,
-   "versionNonce": 7714,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-b9"
-    },
-    {
-     "id": "arr-8",
-     "type": "arrow"
-    },
-    {
-     "id": "arr-next",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-b9",
-   "type": "text",
-   "x": 442,
-   "y": 1802,
-   "width": 436,
-   "height": 100.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 7731,
-   "version": 1,
-   "versionNonce": 7748,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "🏁 9. TANCA LA FEATURE\nMarca [x] les tasques a 3-tasks.md\nActualitza el roadmap: 004 → FETA\nResumeix a l'usuari què s'ha fet\nEl codi és un derivat de la spec, mai al revés",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "b9",
-   "originalText": "🏁 9. TANCA LA FEATURE\nMarca [x] les tasques a 3-tasks.md\nActualitza el roadmap: 004 → FETA\nResumeix a l'usuari què s'ha fet\nEl codi és un derivat de la spec, mai al revés",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "arr-0",
-   "type": "arrow",
-   "x": 660.0,
-   "y": 234,
-   "width": 0,
-   "height": 52,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 7765,
-   "version": 1,
-   "versionNonce": 7782,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     52
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "b0",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b1",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": "arrow"
-  },
-  {
-   "id": "arr-1",
-   "type": "arrow",
-   "x": 660.0,
-   "y": 424,
-   "width": 0,
-   "height": 52,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 7799,
-   "version": 1,
-   "versionNonce": 7816,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     52
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "b1",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b2",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": "arrow"
-  },
-  {
-   "id": "arr-2",
-   "type": "arrow",
-   "x": 660.0,
-   "y": 614,
-   "width": 0,
-   "height": 52,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 7833,
-   "version": 1,
-   "versionNonce": 7850,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     52
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "b2",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b3",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": "arrow"
-  },
-  {
-   "id": "arr-3",
-   "type": "arrow",
-   "x": 660.0,
-   "y": 804,
-   "width": 0,
-   "height": 52,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 7867,
-   "version": 1,
-   "versionNonce": 7884,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     52
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "b3",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b4",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": "arrow"
-  },
-  {
-   "id": "arr-4",
-   "type": "arrow",
-   "x": 660.0,
-   "y": 994,
-   "width": 0,
-   "height": 52,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 7901,
-   "version": 1,
-   "versionNonce": 7918,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     52
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "b4",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b5",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": "arrow"
-  },
-  {
-   "id": "arr-5",
-   "type": "arrow",
-   "x": 660.0,
-   "y": 1184,
-   "width": 0,
-   "height": 52,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 7935,
-   "version": 1,
-   "versionNonce": 7952,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     52
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "b5",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b6",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": "arrow"
-  },
-  {
-   "id": "arr-6",
-   "type": "arrow",
-   "x": 660.0,
-   "y": 1354,
-   "width": 0,
-   "height": 52,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 7969,
-   "version": 1,
-   "versionNonce": 7986,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     52
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "b6",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b7",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": "arrow"
-  },
-  {
-   "id": "arr-7",
-   "type": "arrow",
-   "x": 660.0,
-   "y": 1544,
-   "width": 0,
-   "height": 52,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 8003,
-   "version": 1,
-   "versionNonce": 8020,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     52
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "b7",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b8",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": "arrow"
-  },
-  {
-   "id": "arr-8",
-   "type": "arrow",
-   "x": 660.0,
-   "y": 1734,
-   "width": 0,
-   "height": 52,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 8037,
-   "version": 1,
-   "versionNonce": 8054,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "lbl-arr-8"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     52
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "b8",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b9",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": "arrow"
-  },
-  {
-   "id": "lbl-arr-8",
-   "type": "text",
-   "x": 610.5,
-   "y": 1760.0,
-   "width": 99,
-   "height": 20,
-   "angle": 0,
-   "strokeColor": "#2f9e44",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 8071,
-   "version": 1,
-   "versionNonce": 8088,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "✔ tot passa",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "arr-8",
-   "originalText": "✔ tot passa",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "arr-loop",
-   "type": "arrow",
-   "x": 430,
-   "y": 1665,
-   "width": 42,
-   "height": 190,
-   "angle": 0,
-   "strokeColor": "#e03131",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 8105,
-   "version": 1,
-   "versionNonce": 8122,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "lbl-arr-loop"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     -42,
-     -45
-    ],
-    [
-     -42,
-     -150
-    ],
-    [
-     0,
-     -190
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "b8",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b7",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": "arrow"
-  },
-  {
-   "id": "lbl-arr-loop",
-   "type": "text",
-   "x": 380.5,
-   "y": 1760.0,
-   "width": 99,
-   "height": 40,
-   "angle": 0,
-   "strokeColor": "#e03131",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 8139,
-   "version": 1,
-   "versionNonce": 8156,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "❌ falla\n→ corregeix",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "arr-loop",
-   "originalText": "❌ falla\n→ corregeix",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "arr-next",
-   "type": "arrow",
-   "x": 430,
-   "y": 1855,
-   "width": 58,
-   "height": 930,
-   "angle": 0,
-   "strokeColor": "#f08c00",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "dashed",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 8173,
-   "version": 1,
-   "versionNonce": 8190,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "lbl-arr-next"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     -58,
-     -120
-    ],
-    [
-     -58,
-     -815
-    ],
-    [
-     0,
-     -930
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "b9",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b4",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": "arrow"
-  },
-  {
-   "id": "lbl-arr-next",
-   "type": "text",
-   "x": 353.5,
-   "y": 2320.0,
-   "width": 153,
-   "height": 40,
-   "angle": 0,
-   "strokeColor": "#f08c00",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 8207,
-   "version": 1,
-   "versionNonce": 8224,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "nou «continua»\n→ següent feature",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "center",
-   "verticalAlign": "middle",
-   "containerId": "arr-next",
-   "originalText": "nou «continua»\n→ següent feature",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "p-spec",
-   "type": "rectangle",
-   "x": 20,
-   "y": 690,
-   "width": 350,
-   "height": 250,
-   "angle": 0,
-   "strokeColor": "#495057",
-   "backgroundColor": "#f1f3f5",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "dashed",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 8241,
-   "version": 1,
-   "versionNonce": 8258,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-p-spec"
-    },
-    {
-     "id": "con-spec-3",
-     "type": "arrow"
-    },
-    {
-     "id": "con-spec-5",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-p-spec",
-   "type": "text",
-   "x": 32,
-   "y": 702,
-   "width": 326,
-   "height": 160.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 8275,
-   "version": 1,
-   "versionNonce": 8292,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "📁 spec/ — L'ÚNICA FONT DE VERITAT\nconstitution/ — el marc estable:\n   1-mission, 2-tech-stack, 3-roadmap\nfeatures/NNN-nom/ — una per feature:\n   1-spec: QUÈ (criteris d'acceptació)\n   2-plan: COM (decisions tècniques)\n   3-tasks: PASSOS (checklist [ ]/[x])\nSi no és a la spec, no existeix",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "left",
-   "verticalAlign": "middle",
-   "containerId": "p-spec",
-   "originalText": "📁 spec/ — L'ÚNICA FONT DE VERITAT\nconstitution/ — el marc estable:\n   1-mission, 2-tech-stack, 3-roadmap\nfeatures/NNN-nom/ — una per feature:\n   1-spec: QUÈ (criteris d'acceptació)\n   2-plan: COM (decisions tècniques)\n   3-tasks: PASSOS (checklist [ ]/[x])\nSi no és a la spec, no existeix",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "p-skills",
-   "type": "rectangle",
-   "x": 950,
-   "y": 1050,
-   "width": 350,
-   "height": 230,
-   "angle": 0,
-   "strokeColor": "#495057",
-   "backgroundColor": "#f1f3f5",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "dashed",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 8309,
-   "version": 1,
-   "versionNonce": 8326,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-p-skills"
-    },
-    {
-     "id": "con-skills-6",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-p-skills",
-   "type": "text",
-   "x": 962,
-   "y": 1062,
-   "width": 326,
-   "height": 160.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 8343,
-   "version": 1,
-   "versionNonce": 8360,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "🧠 SKILLS — coneixement expert\nFitxers Markdown a .agents/skills/\nque guien COM s'ha de fer la feina:\nestil-todos: colors, tipografia, layout\nmysql: com dissenyar un bon esquema\nloop-verificacio: com comprovar-ho tot\nfetch-api, frontend-design, documentar…\nSense skills: codi genèric i improvisat",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "left",
-   "verticalAlign": "middle",
-   "containerId": "p-skills",
-   "originalText": "🧠 SKILLS — coneixement expert\nFitxers Markdown a .agents/skills/\nque guien COM s'ha de fer la feina:\nestil-todos: colors, tipografia, layout\nmysql: com dissenyar un bon esquema\nloop-verificacio: com comprovar-ho tot\nfetch-api, frontend-design, documentar…\nSense skills: codi genèric i improvisat",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "p-mcp",
-   "type": "rectangle",
-   "x": 950,
-   "y": 1410,
-   "width": 350,
-   "height": 230,
-   "angle": 0,
-   "strokeColor": "#495057",
-   "backgroundColor": "#f1f3f5",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "dashed",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 3
-   },
-   "seed": 8377,
-   "version": 1,
-   "versionNonce": 8394,
-   "isDeleted": false,
-   "boundElements": [
-    {
-     "type": "text",
-     "id": "txt-p-mcp"
-    },
-    {
-     "id": "con-mcp-7",
-     "type": "arrow"
-    },
-    {
-     "id": "con-mcp-8",
-     "type": "arrow"
-    }
-   ],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false
-  },
-  {
-   "id": "txt-p-mcp",
-   "type": "text",
-   "x": 962,
-   "y": 1422,
-   "width": 326,
-   "height": 160.0,
-   "angle": 0,
-   "strokeColor": "#1e1e1e",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 2,
-   "strokeStyle": "solid",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": null,
-   "seed": 8411,
-   "version": 1,
-   "versionNonce": 8428,
-   "isDeleted": false,
-   "boundElements": null,
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "text": "🔌 MCP — les «mans» de l'agent\nServidors configurats a opencode.json\nque el connecten amb el món real:\ncontext7: documentació al dia (remot)\nplaywright: controla el navegador\nmysql: executa SQL a la BD todos_pro\nSense MCP només generaria text:\nno podria APLICAR ni VERIFICAR res",
-   "fontSize": 16,
-   "fontFamily": 1,
-   "textAlign": "left",
-   "verticalAlign": "middle",
-   "containerId": "p-mcp",
-   "originalText": "🔌 MCP — les «mans» de l'agent\nServidors configurats a opencode.json\nque el connecten amb el món real:\ncontext7: documentació al dia (remot)\nplaywright: controla el navegador\nmysql: executa SQL a la BD todos_pro\nSense MCP només generaria text:\nno podria APLICAR ni VERIFICAR res",
-   "lineHeight": 1.25
-  },
-  {
-   "id": "con-spec-3",
-   "type": "arrow",
-   "x": 372,
-   "y": 770,
-   "width": 54,
-   "height": 15,
-   "angle": 0,
-   "strokeColor": "#868e96",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 1,
-   "strokeStyle": "dashed",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 8445,
-   "version": 1,
-   "versionNonce": 8462,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     54,
-     -15
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "p-spec",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b3",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": null
-  },
-  {
-   "id": "con-spec-5",
-   "type": "arrow",
-   "x": 372,
-   "y": 900,
-   "width": 54,
-   "height": 210,
-   "angle": 0,
-   "strokeColor": "#868e96",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 1,
-   "strokeStyle": "dashed",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 8479,
-   "version": 1,
-   "versionNonce": 8496,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     54,
-     210
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "p-spec",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b5",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": null
-  },
-  {
-   "id": "con-skills-6",
-   "type": "arrow",
-   "x": 946,
-   "y": 1230,
-   "width": 52,
-   "height": 60,
-   "angle": 0,
-   "strokeColor": "#868e96",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 1,
-   "strokeStyle": "dashed",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 8513,
-   "version": 1,
-   "versionNonce": 8530,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     -52,
-     60
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "p-skills",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b6",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": null
-  },
-  {
-   "id": "con-mcp-7",
-   "type": "arrow",
-   "x": 946,
-   "y": 1480,
-   "width": 52,
-   "height": 5,
-   "angle": 0,
-   "strokeColor": "#868e96",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 1,
-   "strokeStyle": "dashed",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 8547,
-   "version": 1,
-   "versionNonce": 8564,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     -52,
-     -5
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "p-mcp",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b7",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": null
-  },
-  {
-   "id": "con-mcp-8",
-   "type": "arrow",
-   "x": 946,
-   "y": 1620,
-   "width": 52,
-   "height": 45,
-   "angle": 0,
-   "strokeColor": "#868e96",
-   "backgroundColor": "transparent",
-   "fillStyle": "solid",
-   "strokeWidth": 1,
-   "strokeStyle": "dashed",
-   "roughness": 1,
-   "opacity": 100,
-   "groupIds": [],
-   "frameId": null,
-   "roundness": {
-    "type": 2
-   },
-   "seed": 8581,
-   "version": 1,
-   "versionNonce": 8598,
-   "isDeleted": false,
-   "boundElements": [],
-   "updated": 1751000000000,
-   "link": null,
-   "locked": false,
-   "points": [
-    [
-     0,
-     0
-    ],
-    [
-     -52,
-     45
-    ]
-   ],
-   "lastCommittedPoint": null,
-   "startBinding": {
-    "elementId": "p-mcp",
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "b8",
-    "focus": 0,
-    "gap": 4
-   },
-   "startArrowhead": null,
-   "endArrowhead": null
-  }
- ],
- "appState": {
-  "gridSize": null,
-  "viewBackgroundColor": "#ffffff"
- },
- "files": {}
+  "files": {}
 }
