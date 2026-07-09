@@ -6,4 +6,4 @@
 [x] T4 — Llista amb les 3 tasques d'exemple i l'estil de feta.
 [x] T5 — Estats buit/carregant/error i missatge del camp, ocults amb hidden.
 [x] T6 — Repàs responsive i accessibilitat.
-[x] T7 — Verificació amb la skill loop-verificacio; si tot passa, roadmap a «feta».
+[x] T7 — Verificació amb la skill loop-verificacio-front; si tot passa, roadmap a «feta».

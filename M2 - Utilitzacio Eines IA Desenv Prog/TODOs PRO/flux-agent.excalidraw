@@ -1,0 +1,2075 @@
+{
+ "type": "excalidraw",
+ "version": 2,
+ "source": "https://excalidraw.com",
+ "elements": [
+  {
+   "id": "title",
+   "type": "text",
+   "x": 340,
+   "y": 20,
+   "width": 806,
+   "height": 35.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7017,
+   "version": 1,
+   "versionNonce": 7034,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "TODOs PRO — Què fa l'agent amb el primer PROMPT?",
+   "fontSize": 28,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "containerId": null,
+   "originalText": "TODOs PRO — Què fa l'agent amb el primer PROMPT?",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "subtitle",
+   "type": "text",
+   "x": 340,
+   "y": 66,
+   "width": 835,
+   "height": 20.0,
+   "angle": 0,
+   "strokeColor": "#868e96",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7051,
+   "version": 1,
+   "versionNonce": 7068,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "OpenCode + SDD (Specification-Driven Development) — CIFO, Eines IA per a la programació",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "top",
+   "containerId": null,
+   "originalText": "OpenCode + SDD (Specification-Driven Development) — CIFO, Eines IA per a la programació",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "b0",
+   "type": "rectangle",
+   "x": 430,
+   "y": 120,
+   "width": 460,
+   "height": 110,
+   "angle": 0,
+   "strokeColor": "#f08c00",
+   "backgroundColor": "#ffec99",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 7085,
+   "version": 1,
+   "versionNonce": 7102,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-b0"
+    },
+    {
+     "id": "arr-0",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-b0",
+   "type": "text",
+   "x": 442,
+   "y": 132,
+   "width": 436,
+   "height": 80.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7119,
+   "version": 1,
+   "versionNonce": 7136,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "👤 0. EL PRIMER PROMPT (PROMPT.md)\n«Llegeix AGENTS.md i recorda les regles.\nLlegeix spec/ i continua el projecte»\nL'usuari NO diu què construir: tot és a spec/",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "b0",
+   "originalText": "👤 0. EL PRIMER PROMPT (PROMPT.md)\n«Llegeix AGENTS.md i recorda les regles.\nLlegeix spec/ i continua el projecte»\nL'usuari NO diu què construir: tot és a spec/",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "b1",
+   "type": "rectangle",
+   "x": 430,
+   "y": 290,
+   "width": 460,
+   "height": 130,
+   "angle": 0,
+   "strokeColor": "#6741d9",
+   "backgroundColor": "#d0bfff",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 7153,
+   "version": 1,
+   "versionNonce": 7170,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-b1"
+    },
+    {
+     "id": "arr-0",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-1",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-b1",
+   "type": "text",
+   "x": 442,
+   "y": 302,
+   "width": 436,
+   "height": 100.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7187,
+   "version": 1,
+   "versionNonce": 7204,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "⚙️ 1. OPENCODE ARRENCA\nLlegeix opencode.json i aixeca els 3 MCP:\ncontext7 (docs), playwright (navegador),\nmysql (base de dades todos_pro)\nTambé detecta AGENTS.md i .agents/skills/",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "b1",
+   "originalText": "⚙️ 1. OPENCODE ARRENCA\nLlegeix opencode.json i aixeca els 3 MCP:\ncontext7 (docs), playwright (navegador),\nmysql (base de dades todos_pro)\nTambé detecta AGENTS.md i .agents/skills/",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "b2",
+   "type": "rectangle",
+   "x": 430,
+   "y": 480,
+   "width": 460,
+   "height": 130,
+   "angle": 0,
+   "strokeColor": "#e03131",
+   "backgroundColor": "#ffc9c9",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 7221,
+   "version": 1,
+   "versionNonce": 7238,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-b2"
+    },
+    {
+     "id": "arr-1",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-2",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-b2",
+   "type": "text",
+   "x": 442,
+   "y": 492,
+   "width": 436,
+   "height": 100.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7255,
+   "version": 1,
+   "versionNonce": 7272,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "📜 2. LLEGEIX AGENTS.md — LES REGLES\nSDD: spec/ és l'ÚNICA font de veritat\nAplica les skills del projecte\nSi és una pregunta: respon, cap canvi\nNomés dins la carpeta, tot en català",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "b2",
+   "originalText": "📜 2. LLEGEIX AGENTS.md — LES REGLES\nSDD: spec/ és l'ÚNICA font de veritat\nAplica les skills del projecte\nSi és una pregunta: respon, cap canvi\nNomés dins la carpeta, tot en català",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "b3",
+   "type": "rectangle",
+   "x": 430,
+   "y": 670,
+   "width": 460,
+   "height": 130,
+   "angle": 0,
+   "strokeColor": "#1971c2",
+   "backgroundColor": "#a5d8ff",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 7289,
+   "version": 1,
+   "versionNonce": 7306,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-b3"
+    },
+    {
+     "id": "arr-2",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-3",
+     "type": "arrow"
+    },
+    {
+     "id": "con-spec-3",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-b3",
+   "type": "text",
+   "x": 442,
+   "y": 682,
+   "width": 436,
+   "height": 100.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7323,
+   "version": 1,
+   "versionNonce": 7340,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "🏛️ 3. LLEGEIX spec/constitution/\n1-mission: QUÈ és el producte i per a qui\n2-tech-stack: COM es construeix (FRONT/BACK)\n3-roadmap: en quin ORDRE va cada feature\ni el seu estat: pendent → en curs → feta",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "b3",
+   "originalText": "🏛️ 3. LLEGEIX spec/constitution/\n1-mission: QUÈ és el producte i per a qui\n2-tech-stack: COM es construeix (FRONT/BACK)\n3-roadmap: en quin ORDRE va cada feature\ni el seu estat: pendent → en curs → feta",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "b4",
+   "type": "rectangle",
+   "x": 430,
+   "y": 860,
+   "width": 460,
+   "height": 130,
+   "angle": 0,
+   "strokeColor": "#e8590c",
+   "backgroundColor": "#ffd8a8",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 7357,
+   "version": 1,
+   "versionNonce": 7374,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-b4"
+    },
+    {
+     "id": "arr-3",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-4",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-next",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-b4",
+   "type": "text",
+   "x": 442,
+   "y": 872,
+   "width": 436,
+   "height": 100.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7391,
+   "version": 1,
+   "versionNonce": 7408,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "🧭 4. DECIDEIX QUÈ TOCA\nBusca al roadmap la primera feature no FETA\nAra: 004-back-disseny-DB (PENDENT)\nLa passa a «en curs»: el roadmap és un\ndocument viu que reflecteix l'estat real",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "b4",
+   "originalText": "🧭 4. DECIDEIX QUÈ TOCA\nBusca al roadmap la primera feature no FETA\nAra: 004-back-disseny-DB (PENDENT)\nLa passa a «en curs»: el roadmap és un\ndocument viu que reflecteix l'estat real",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "b5",
+   "type": "rectangle",
+   "x": 430,
+   "y": 1050,
+   "width": 460,
+   "height": 130,
+   "angle": 0,
+   "strokeColor": "#1971c2",
+   "backgroundColor": "#a5d8ff",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 7425,
+   "version": 1,
+   "versionNonce": 7442,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-b5"
+    },
+    {
+     "id": "arr-4",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-5",
+     "type": "arrow"
+    },
+    {
+     "id": "con-spec-5",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-b5",
+   "type": "text",
+   "x": 442,
+   "y": 1062,
+   "width": 436,
+   "height": 100.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7459,
+   "version": 1,
+   "versionNonce": 7476,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "📋 5. LLEGEIX LA FEATURE SENCERA\nspec/features/004-back-disseny-DB/\n1-spec.md: QUÈ + criteris d'acceptació\n2-plan.md: COM, les decisions tècniques\n3-tasks.md: checklist de tasques T1…T5",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "b5",
+   "originalText": "📋 5. LLEGEIX LA FEATURE SENCERA\nspec/features/004-back-disseny-DB/\n1-spec.md: QUÈ + criteris d'acceptació\n2-plan.md: COM, les decisions tècniques\n3-tasks.md: checklist de tasques T1…T5",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "b6",
+   "type": "rectangle",
+   "x": 430,
+   "y": 1240,
+   "width": 460,
+   "height": 110,
+   "angle": 0,
+   "strokeColor": "#6741d9",
+   "backgroundColor": "#d0bfff",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 7493,
+   "version": 1,
+   "versionNonce": 7510,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-b6"
+    },
+    {
+     "id": "arr-5",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-6",
+     "type": "arrow"
+    },
+    {
+     "id": "con-skills-6",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-b6",
+   "type": "text",
+   "x": 442,
+   "y": 1252,
+   "width": 436,
+   "height": 80.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7527,
+   "version": 1,
+   "versionNonce": 7544,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "🧠 6. CARREGA LES SKILLS QUE APLIQUEN\nEl pla apunta a la skill mysql:\nPK BIGINT UNSIGNED, utf8mb4, NOT NULL,\nDATETIME… estàndards d'expert, no improvisa",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "b6",
+   "originalText": "🧠 6. CARREGA LES SKILLS QUE APLIQUEN\nEl pla apunta a la skill mysql:\nPK BIGINT UNSIGNED, utf8mb4, NOT NULL,\nDATETIME… estàndards d'expert, no improvisa",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "b7",
+   "type": "rectangle",
+   "x": 430,
+   "y": 1410,
+   "width": 460,
+   "height": 130,
+   "angle": 0,
+   "strokeColor": "#2f9e44",
+   "backgroundColor": "#b2f2bb",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 7561,
+   "version": 1,
+   "versionNonce": 7578,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-b7"
+    },
+    {
+     "id": "arr-6",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-7",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-loop",
+     "type": "arrow"
+    },
+    {
+     "id": "con-mcp-7",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-b7",
+   "type": "text",
+   "x": 442,
+   "y": 1422,
+   "width": 436,
+   "height": 100.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7595,
+   "version": 1,
+   "versionNonce": 7612,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "🛠️ 7. EXECUTA LES TASQUES (T1 → T5)\nUna a una i en ordre: escriu schema.sql\n(users + todos amb FOREIGN KEY)\nMCP context7: consulta sintaxi actualitzada\nMCP mysql: aplica l'esquema a la BD real",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "b7",
+   "originalText": "🛠️ 7. EXECUTA LES TASQUES (T1 → T5)\nUna a una i en ordre: escriu schema.sql\n(users + todos amb FOREIGN KEY)\nMCP context7: consulta sintaxi actualitzada\nMCP mysql: aplica l'esquema a la BD real",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "b8",
+   "type": "rectangle",
+   "x": 430,
+   "y": 1600,
+   "width": 460,
+   "height": 130,
+   "angle": 0,
+   "strokeColor": "#099268",
+   "backgroundColor": "#96f2d7",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 7629,
+   "version": 1,
+   "versionNonce": 7646,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-b8"
+    },
+    {
+     "id": "arr-7",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-8",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-loop",
+     "type": "arrow"
+    },
+    {
+     "id": "con-mcp-8",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-b8",
+   "type": "text",
+   "x": 442,
+   "y": 1612,
+   "width": 436,
+   "height": 100.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7663,
+   "version": 1,
+   "versionNonce": 7680,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "✅ 8. LOOP DE VERIFICACIÓ\nProva els criteris d'acceptació de 1-spec.md\namb el MCP mysql: email UNIQUE rebutja\nduplicats? la FK bloqueja user_id inexistent?\n(al FRONT es verifica amb el MCP playwright)",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "b8",
+   "originalText": "✅ 8. LOOP DE VERIFICACIÓ\nProva els criteris d'acceptació de 1-spec.md\namb el MCP mysql: email UNIQUE rebutja\nduplicats? la FK bloqueja user_id inexistent?\n(al FRONT es verifica amb el MCP playwright)",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "b9",
+   "type": "rectangle",
+   "x": 430,
+   "y": 1790,
+   "width": 460,
+   "height": 130,
+   "angle": 0,
+   "strokeColor": "#2f9e44",
+   "backgroundColor": "#b2f2bb",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 7697,
+   "version": 1,
+   "versionNonce": 7714,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-b9"
+    },
+    {
+     "id": "arr-8",
+     "type": "arrow"
+    },
+    {
+     "id": "arr-next",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-b9",
+   "type": "text",
+   "x": 442,
+   "y": 1802,
+   "width": 436,
+   "height": 100.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 7731,
+   "version": 1,
+   "versionNonce": 7748,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "🏁 9. TANCA LA FEATURE\nMarca [x] les tasques a 3-tasks.md\nActualitza el roadmap: 004 → FETA\nResumeix a l'usuari què s'ha fet\nEl codi és un derivat de la spec, mai al revés",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "b9",
+   "originalText": "🏁 9. TANCA LA FEATURE\nMarca [x] les tasques a 3-tasks.md\nActualitza el roadmap: 004 → FETA\nResumeix a l'usuari què s'ha fet\nEl codi és un derivat de la spec, mai al revés",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "arr-0",
+   "type": "arrow",
+   "x": 660.0,
+   "y": 234,
+   "width": 0,
+   "height": 52,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 7765,
+   "version": 1,
+   "versionNonce": 7782,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     52
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "b0",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b1",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "arr-1",
+   "type": "arrow",
+   "x": 660.0,
+   "y": 424,
+   "width": 0,
+   "height": 52,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 7799,
+   "version": 1,
+   "versionNonce": 7816,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     52
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "b1",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b2",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "arr-2",
+   "type": "arrow",
+   "x": 660.0,
+   "y": 614,
+   "width": 0,
+   "height": 52,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 7833,
+   "version": 1,
+   "versionNonce": 7850,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     52
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "b2",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b3",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "arr-3",
+   "type": "arrow",
+   "x": 660.0,
+   "y": 804,
+   "width": 0,
+   "height": 52,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 7867,
+   "version": 1,
+   "versionNonce": 7884,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     52
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "b3",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b4",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "arr-4",
+   "type": "arrow",
+   "x": 660.0,
+   "y": 994,
+   "width": 0,
+   "height": 52,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 7901,
+   "version": 1,
+   "versionNonce": 7918,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     52
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "b4",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b5",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "arr-5",
+   "type": "arrow",
+   "x": 660.0,
+   "y": 1184,
+   "width": 0,
+   "height": 52,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 7935,
+   "version": 1,
+   "versionNonce": 7952,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     52
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "b5",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b6",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "arr-6",
+   "type": "arrow",
+   "x": 660.0,
+   "y": 1354,
+   "width": 0,
+   "height": 52,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 7969,
+   "version": 1,
+   "versionNonce": 7986,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     52
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "b6",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b7",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "arr-7",
+   "type": "arrow",
+   "x": 660.0,
+   "y": 1544,
+   "width": 0,
+   "height": 52,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 8003,
+   "version": 1,
+   "versionNonce": 8020,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     52
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "b7",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b8",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "arr-8",
+   "type": "arrow",
+   "x": 660.0,
+   "y": 1734,
+   "width": 0,
+   "height": 52,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 8037,
+   "version": 1,
+   "versionNonce": 8054,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "lbl-arr-8"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     52
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "b8",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b9",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "lbl-arr-8",
+   "type": "text",
+   "x": 610.5,
+   "y": 1760.0,
+   "width": 99,
+   "height": 20,
+   "angle": 0,
+   "strokeColor": "#2f9e44",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 8071,
+   "version": 1,
+   "versionNonce": 8088,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "✔ tot passa",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "arr-8",
+   "originalText": "✔ tot passa",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "arr-loop",
+   "type": "arrow",
+   "x": 430,
+   "y": 1665,
+   "width": 42,
+   "height": 190,
+   "angle": 0,
+   "strokeColor": "#e03131",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 8105,
+   "version": 1,
+   "versionNonce": 8122,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "lbl-arr-loop"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -42,
+     -45
+    ],
+    [
+     -42,
+     -150
+    ],
+    [
+     0,
+     -190
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "b8",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b7",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "lbl-arr-loop",
+   "type": "text",
+   "x": 380.5,
+   "y": 1760.0,
+   "width": 99,
+   "height": 40,
+   "angle": 0,
+   "strokeColor": "#e03131",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 8139,
+   "version": 1,
+   "versionNonce": 8156,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "❌ falla\n→ corregeix",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "arr-loop",
+   "originalText": "❌ falla\n→ corregeix",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "arr-next",
+   "type": "arrow",
+   "x": 430,
+   "y": 1855,
+   "width": 58,
+   "height": 930,
+   "angle": 0,
+   "strokeColor": "#f08c00",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "dashed",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 8173,
+   "version": 1,
+   "versionNonce": 8190,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "lbl-arr-next"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -58,
+     -120
+    ],
+    [
+     -58,
+     -815
+    ],
+    [
+     0,
+     -930
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "b9",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b4",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": "arrow"
+  },
+  {
+   "id": "lbl-arr-next",
+   "type": "text",
+   "x": 353.5,
+   "y": 2320.0,
+   "width": 153,
+   "height": 40,
+   "angle": 0,
+   "strokeColor": "#f08c00",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 8207,
+   "version": 1,
+   "versionNonce": 8224,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "nou «continua»\n→ següent feature",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "center",
+   "verticalAlign": "middle",
+   "containerId": "arr-next",
+   "originalText": "nou «continua»\n→ següent feature",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "p-spec",
+   "type": "rectangle",
+   "x": 20,
+   "y": 690,
+   "width": 350,
+   "height": 250,
+   "angle": 0,
+   "strokeColor": "#495057",
+   "backgroundColor": "#f1f3f5",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "dashed",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 8241,
+   "version": 1,
+   "versionNonce": 8258,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-p-spec"
+    },
+    {
+     "id": "con-spec-3",
+     "type": "arrow"
+    },
+    {
+     "id": "con-spec-5",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-p-spec",
+   "type": "text",
+   "x": 32,
+   "y": 702,
+   "width": 326,
+   "height": 160.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 8275,
+   "version": 1,
+   "versionNonce": 8292,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "📁 spec/ — L'ÚNICA FONT DE VERITAT\nconstitution/ — el marc estable:\n   1-mission, 2-tech-stack, 3-roadmap\nfeatures/NNN-nom/ — una per feature:\n   1-spec: QUÈ (criteris d'acceptació)\n   2-plan: COM (decisions tècniques)\n   3-tasks: PASSOS (checklist [ ]/[x])\nSi no és a la spec, no existeix",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "middle",
+   "containerId": "p-spec",
+   "originalText": "📁 spec/ — L'ÚNICA FONT DE VERITAT\nconstitution/ — el marc estable:\n   1-mission, 2-tech-stack, 3-roadmap\nfeatures/NNN-nom/ — una per feature:\n   1-spec: QUÈ (criteris d'acceptació)\n   2-plan: COM (decisions tècniques)\n   3-tasks: PASSOS (checklist [ ]/[x])\nSi no és a la spec, no existeix",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "p-skills",
+   "type": "rectangle",
+   "x": 950,
+   "y": 1050,
+   "width": 350,
+   "height": 230,
+   "angle": 0,
+   "strokeColor": "#495057",
+   "backgroundColor": "#f1f3f5",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "dashed",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 8309,
+   "version": 1,
+   "versionNonce": 8326,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-p-skills"
+    },
+    {
+     "id": "con-skills-6",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-p-skills",
+   "type": "text",
+   "x": 962,
+   "y": 1062,
+   "width": 326,
+   "height": 160.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 8343,
+   "version": 1,
+   "versionNonce": 8360,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "🧠 SKILLS — coneixement expert\nFitxers Markdown a .agents/skills/\nque guien COM s'ha de fer la feina:\nestil-todos: colors, tipografia, layout\nmysql: com dissenyar un bon esquema\nloop-verificacio: com comprovar-ho tot\nfetch-api, frontend-design, documentar…\nSense skills: codi genèric i improvisat",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "middle",
+   "containerId": "p-skills",
+   "originalText": "🧠 SKILLS — coneixement expert\nFitxers Markdown a .agents/skills/\nque guien COM s'ha de fer la feina:\nestil-todos: colors, tipografia, layout\nmysql: com dissenyar un bon esquema\nloop-verificacio: com comprovar-ho tot\nfetch-api, frontend-design, documentar…\nSense skills: codi genèric i improvisat",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "p-mcp",
+   "type": "rectangle",
+   "x": 950,
+   "y": 1410,
+   "width": 350,
+   "height": 230,
+   "angle": 0,
+   "strokeColor": "#495057",
+   "backgroundColor": "#f1f3f5",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "dashed",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 3
+   },
+   "seed": 8377,
+   "version": 1,
+   "versionNonce": 8394,
+   "isDeleted": false,
+   "boundElements": [
+    {
+     "type": "text",
+     "id": "txt-p-mcp"
+    },
+    {
+     "id": "con-mcp-7",
+     "type": "arrow"
+    },
+    {
+     "id": "con-mcp-8",
+     "type": "arrow"
+    }
+   ],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false
+  },
+  {
+   "id": "txt-p-mcp",
+   "type": "text",
+   "x": 962,
+   "y": 1422,
+   "width": 326,
+   "height": 160.0,
+   "angle": 0,
+   "strokeColor": "#1e1e1e",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 2,
+   "strokeStyle": "solid",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": null,
+   "seed": 8411,
+   "version": 1,
+   "versionNonce": 8428,
+   "isDeleted": false,
+   "boundElements": null,
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "text": "🔌 MCP — les «mans» de l'agent\nServidors configurats a opencode.json\nque el connecten amb el món real:\ncontext7: documentació al dia (remot)\nplaywright: controla el navegador\nmysql: executa SQL a la BD todos_pro\nSense MCP només generaria text:\nno podria APLICAR ni VERIFICAR res",
+   "fontSize": 16,
+   "fontFamily": 1,
+   "textAlign": "left",
+   "verticalAlign": "middle",
+   "containerId": "p-mcp",
+   "originalText": "🔌 MCP — les «mans» de l'agent\nServidors configurats a opencode.json\nque el connecten amb el món real:\ncontext7: documentació al dia (remot)\nplaywright: controla el navegador\nmysql: executa SQL a la BD todos_pro\nSense MCP només generaria text:\nno podria APLICAR ni VERIFICAR res",
+   "lineHeight": 1.25
+  },
+  {
+   "id": "con-spec-3",
+   "type": "arrow",
+   "x": 372,
+   "y": 770,
+   "width": 54,
+   "height": 15,
+   "angle": 0,
+   "strokeColor": "#868e96",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 1,
+   "strokeStyle": "dashed",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 8445,
+   "version": 1,
+   "versionNonce": 8462,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     54,
+     -15
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "p-spec",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b3",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": null
+  },
+  {
+   "id": "con-spec-5",
+   "type": "arrow",
+   "x": 372,
+   "y": 900,
+   "width": 54,
+   "height": 210,
+   "angle": 0,
+   "strokeColor": "#868e96",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 1,
+   "strokeStyle": "dashed",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 8479,
+   "version": 1,
+   "versionNonce": 8496,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     54,
+     210
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "p-spec",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b5",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": null
+  },
+  {
+   "id": "con-skills-6",
+   "type": "arrow",
+   "x": 946,
+   "y": 1230,
+   "width": 52,
+   "height": 60,
+   "angle": 0,
+   "strokeColor": "#868e96",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 1,
+   "strokeStyle": "dashed",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 8513,
+   "version": 1,
+   "versionNonce": 8530,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -52,
+     60
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "p-skills",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b6",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": null
+  },
+  {
+   "id": "con-mcp-7",
+   "type": "arrow",
+   "x": 946,
+   "y": 1480,
+   "width": 52,
+   "height": 5,
+   "angle": 0,
+   "strokeColor": "#868e96",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 1,
+   "strokeStyle": "dashed",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 8547,
+   "version": 1,
+   "versionNonce": 8564,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -52,
+     -5
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "p-mcp",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b7",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": null
+  },
+  {
+   "id": "con-mcp-8",
+   "type": "arrow",
+   "x": 946,
+   "y": 1620,
+   "width": 52,
+   "height": 45,
+   "angle": 0,
+   "strokeColor": "#868e96",
+   "backgroundColor": "transparent",
+   "fillStyle": "solid",
+   "strokeWidth": 1,
+   "strokeStyle": "dashed",
+   "roughness": 1,
+   "opacity": 100,
+   "groupIds": [],
+   "frameId": null,
+   "roundness": {
+    "type": 2
+   },
+   "seed": 8581,
+   "version": 1,
+   "versionNonce": 8598,
+   "isDeleted": false,
+   "boundElements": [],
+   "updated": 1751000000000,
+   "link": null,
+   "locked": false,
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     -52,
+     45
+    ]
+   ],
+   "lastCommittedPoint": null,
+   "startBinding": {
+    "elementId": "p-mcp",
+    "focus": 0,
+    "gap": 4
+   },
+   "endBinding": {
+    "elementId": "b8",
+    "focus": 0,
+    "gap": 4
+   },
+   "startArrowhead": null,
+   "endArrowhead": null
+  }
+ ],
+ "appState": {
+  "gridSize": null,
+  "viewBackgroundColor": "#ffffff"
+ },
+ "files": {}
+}

@@ -6,4 +6,4 @@
 [x] T4 — Afegir, amb la validació de camp buit.
 [x] T5 — Completar i esborrar.
 [x] T6 — Provar SIMULA_ERROR = true i tornar-la a false.
-[x] T7 — Verificació amb la skill loop-verificacio; si tot passa, roadmap a «feta».
+[x] T7 — Verificació amb la skill loop-verificacio-front; si tot passa, roadmap a «feta».

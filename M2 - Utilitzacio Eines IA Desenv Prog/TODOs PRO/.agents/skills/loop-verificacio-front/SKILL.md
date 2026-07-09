@@ -1,5 +1,5 @@
 ---
-name: loop-verificacio
+name: loop-verificacio-front
 description: Bucle de verificació d'una feature amb el navegador (MCP de Playwright) contra els criteris d'acceptació de la seva spec. Usa-la sempre que una tasca digui "verificació" o en acabar totes les tasques d'una feature.
 ---
 El loop:

@@ -5,4 +5,4 @@
 [x] T3 — Enllaços: login ↔ registre i "Surt" a la capçalera d'index.html.
 [x] T4 — app.js: les regles i els missatges de la spec; navegació si tot és correcte.
 [x] T5 — Repàs d'estil, responsive i accessibilitat.
-[x] T6 — Verificació amb la skill loop-verificacio; si tot passa, roadmap a «feta».
+[x] T6 — Verificació amb la skill loop-verificacio-front; si tot passa, roadmap a «feta».
