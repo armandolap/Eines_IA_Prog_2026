@@ -8,3 +8,4 @@
 - Taula `users`: id, nom VARCHAR, email VARCHAR amb índex UNIQUE, password_hash VARCHAR, created_at.
 - Taula `todos`: id, title VARCHAR, done TINYINT(1) DEFAULT 0, created_at, user_id BIGINT UNSIGNED amb FOREIGN KEY cap a users(id).
 - Contracte del FRONT (app.js): els camps de todos són id, title, done, created_at. user_id és nou del BACK.
+- Utilitza el MCP "mysql" configutat localment a opencode.json

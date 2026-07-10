@@ -1,1 +1,1 @@
-- IMPORTANTE LEE AGENTS.md y acuerdate de las reglas. Llegeix spec/ i continua el projecte
+- IMPORTANTE LEE AGENTS.md y acuerdate de las reglas. Continua el projecte

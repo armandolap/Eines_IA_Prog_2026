@@ -16,5 +16,5 @@ La llista que funciona contra la maquetació; fixa el contracte de dades.
 
 
 ## bloc BACK
-004-back-disseny-DB - ESTAT PENDENT
+004-back-disseny-DB - ESTAT FETA
 Disseny de la base de dades MySQL: taules users i todos amb la seva relació.
