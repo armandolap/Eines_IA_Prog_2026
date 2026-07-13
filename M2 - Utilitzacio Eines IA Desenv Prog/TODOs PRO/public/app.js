@@ -1,53 +1,43 @@
-/* ———————————————— CONSTANTS ———————————————— */
-let SIMULA_ERROR = false
-const MOCK_LATENCIA = 300
+/* ———————————————— FUNCIONS DE DADES (contracte API — fetch real) ———————————————— */
 
-/* ———————————————— MOCK DE DADES ———————————————— */
-let nextId = 4
-const tasquesInicials = [
-  { id: 1, title: 'Estudiar CSS', done: true, created_at: '2026-07-09T08:00:00Z' },
-  { id: 2, title: 'Preparar la llista de la compra', done: false, created_at: '2026-07-09T08:30:00Z' },
-  // { id: 3, title: 'Llegir el capítol 5', done: false, created_at: '2026-07-09T09:00:00Z' }
-]
-
-let tasques = tasquesInicials.map(t => ({ ...t }))
-
-function copiarTasques() {
-  return tasques.map(t => ({ ...t }))
-}
-
-/* ———————————————— FUNCIONS DE DADES (contracte API) ———————————————— */
 async function getTodos() {
-  if (SIMULA_ERROR) throw new Error('Error de xarxa simulat')
-  await retard(MOCK_LATENCIA)
-  return copiarTasques()
+  const res = await fetch('/api/tasques', { credentials: 'same-origin' })
+  if (res.status === 401) { window.location.href = '/login'; return [] }
+  if (!res.ok) throw new Error('Error carregant tasques')
+  return res.json()
 }
 
 async function createTodo(title) {
-  if (SIMULA_ERROR) throw new Error('Error de xarxa simulat')
-  await retard(MOCK_LATENCIA)
-  const nova = { id: nextId++, title, done: false, created_at: new Date().toISOString() }
-  tasques.push(nova)
-  return { ...nova }
+  const res = await fetch('/api/tasques', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    credentials: 'same-origin',
+    body: JSON.stringify({ title })
+  })
+  if (res.status === 401) { window.location.href = '/login'; return null }
+  if (!res.ok) throw new Error('Error creant tasca')
+  return res.json()
 }
 
 async function toggleTodo(id, done) {
-  if (SIMULA_ERROR) throw new Error('Error de xarxa simulat')
-  await retard(MOCK_LATENCIA)
-  const tasca = tasques.find(t => t.id === id)
-  if (!tasca) throw new Error('Tasca no trobada')
-  tasca.done = done
-  return { ...tasca }
+  const res = await fetch(`/api/tasques/${id}`, {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    credentials: 'same-origin',
+    body: JSON.stringify({ done })
+  })
+  if (res.status === 401) { window.location.href = '/login'; return null }
+  if (!res.ok) throw new Error('Error actualitzant tasca')
+  return res.json()
 }
 
 async function deleteTodo(id) {
-  if (SIMULA_ERROR) throw new Error('Error de xarxa simulat')
-  await retard(MOCK_LATENCIA)
-  tasques = tasques.filter(t => t.id !== id)
-}
-
-function retard(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms))
+  const res = await fetch(`/api/tasques/${id}`, {
+    method: 'DELETE',
+    credentials: 'same-origin'
+  })
+  if (res.status === 401) { window.location.href = '/login'; return }
+  if (!res.ok) throw new Error('Error eliminant tasca')
 }
 
 /* ———————————————— DOM ———————————————— */
@@ -91,10 +81,13 @@ function pintaLlista() {
   })
 }
 
+let tasques = []
+
 async function carrega() {
   mostraEstat('estat-carregant')
   try {
     const dades = await getTodos()
+    if (dades === null) return
     tasques = dades
     pintaLlista()
     actualitzaComptador()
@@ -115,19 +108,64 @@ document.addEventListener('DOMContentLoaded', () => {
   const formRegistre = document.getElementById('form-registre')
 
   if (formLogin) {
-    formLogin.addEventListener('submit', (e) => {
+    formLogin.addEventListener('submit', async (e) => {
       e.preventDefault()
-      if (validarFormLogin()) {
-        window.location.href = 'index.html'
+      netejaErrors()
+      const emailOk = validarEmail('email')
+      const passOk = validarContrasenya('contrasenya')
+      if (!emailOk || !passOk) return
+
+      const email = document.getElementById('camp-email').value.trim()
+      const contrasenya = document.getElementById('camp-contrasenya').value.trim()
+
+      try {
+        const res = await fetch('/api/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'same-origin',
+          body: JSON.stringify({ email, contrasenya })
+        })
+        const dades = await res.json()
+        if (res.ok) {
+          window.location.href = '/todos'
+        } else {
+          mostraErrorLogin(dades.error || 'Error desconegut')
+        }
+      } catch {
+        mostraErrorLogin('Error de connexió')
       }
     })
   }
 
   if (formRegistre) {
-    formRegistre.addEventListener('submit', (e) => {
+    formRegistre.addEventListener('submit', async (e) => {
       e.preventDefault()
-      if (validarFormRegistre()) {
-        window.location.href = 'login.html'
+      netejaErrors()
+      const nomOk = validarCamp('nom', 'Aquest camp és obligatori')
+      const emailOk = validarEmail('email')
+      const passOk = validarContrasenya('contrasenya')
+      const coincideixen = passOk ? validarCoincideixen() : false
+      if (!nomOk || !emailOk || !passOk || !coincideixen) return
+
+      const nom = document.getElementById('camp-nom').value.trim()
+      const email = document.getElementById('camp-email').value.trim()
+      const contrasenya = document.getElementById('camp-contrasenya').value.trim()
+
+      try {
+        const res = await fetch('/api/registre', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'same-origin',
+          body: JSON.stringify({ nom, email, contrasenya })
+        })
+        const dades = await res.json()
+        if (res.ok) {
+          window.location.href = '/todos'
+        } else {
+          mostraErrorRegistre(dades.error || 'Error desconegut')
+        }
+      } catch {
+        mostraErrorRegistre('Error de connexió')
       }
     })
   }
@@ -148,8 +186,10 @@ document.addEventListener('DOMContentLoaded', () => {
       error.classList.add('hidden')
 
       try {
-        await createTodo(title)
+        const nova = await createTodo(title)
+        if (nova === null) return
         input.value = ''
+        tasques.unshift(nova)
         pintaLlista()
         actualitzaComptador()
         document.getElementById('estat-buit').classList.add('hidden')
@@ -169,7 +209,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (e.target.type === 'checkbox') {
         try {
-          const tasca = await toggleTodo(id, e.target.checked)
+          await toggleTodo(id, e.target.checked)
+          const t = tasques.find(t => t.id === id)
+          if (t) t.done = e.target.checked
           pintaLlista()
           actualitzaComptador()
         } catch {
@@ -181,11 +223,24 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!confirm('Segur que vols eliminar aquesta tasca?')) return
         try {
           await deleteTodo(id)
-          await carrega()
+          tasques = tasques.filter(t => t.id !== id)
+          pintaLlista()
+          actualitzaComptador()
+          if (tasques.length === 0) mostraEstat('estat-buit')
         } catch {
           mostraEstat('estat-error')
         }
       }
+    })
+  }
+
+  /* —— Surt (logout) —— */
+  const botoSurt = document.getElementById('boto-surt')
+  if (botoSurt) {
+    botoSurt.addEventListener('click', async (e) => {
+      e.preventDefault()
+      await fetch('/api/logout', { method: 'POST', credentials: 'same-origin' })
+      window.location.href = '/login'
     })
   }
 })
@@ -197,6 +252,22 @@ function netejaErrors() {
 
 function mostraError(campId, missatge) {
   const el = document.getElementById('error-' + campId)
+  if (el) {
+    el.textContent = missatge
+    el.classList.remove('hidden')
+  }
+}
+
+function mostraErrorLogin(missatge) {
+  const el = document.getElementById('error-login')
+  if (el) {
+    el.textContent = missatge
+    el.classList.remove('hidden')
+  }
+}
+
+function mostraErrorRegistre(missatge) {
+  const el = document.getElementById('error-registre')
   if (el) {
     el.textContent = missatge
     el.classList.remove('hidden')
