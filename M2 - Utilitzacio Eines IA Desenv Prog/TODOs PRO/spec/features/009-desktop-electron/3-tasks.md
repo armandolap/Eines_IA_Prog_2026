@@ -43,4 +43,4 @@
 [ ] (c) **Comprovar previ**: `mysqladmin ping` abans de tot. Si falla, engegar MySQL (`brew services start mysql` o equivalent).
 
 ## T9
-[ ] Si tot passa, roadmap: 009 a «feta».
+[x] Si tot passa, roadmap: 009 a «feta».
